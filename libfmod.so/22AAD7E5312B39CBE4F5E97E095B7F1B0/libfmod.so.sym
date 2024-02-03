@@ -1,0 +1,1182 @@
+MODULE Linux arm 22AAD7E5312B39CBE4F5E97E095B7F1B0 libfmod.so
+INFO GENERATOR mozilla/dump_syms 2.2.2
+PUBLIC 42000 0 <.text ELF section in libfmod.so>
+PUBLIC 42045 0 FMOD_Memory_Initialize
+PUBLIC 4212d 0 FMOD_Memory_GetStats
+PUBLIC 421f9 0 FMOD_System_Create
+PUBLIC 422ad 0 FMOD_System_Release
+PUBLIC 422b1 0 FMOD_System_SetOutput
+PUBLIC 422bb 0 FMOD_System_GetOutput
+PUBLIC 422c5 0 FMOD_System_GetNumDrivers
+PUBLIC 422cf 0 FMOD_System_GetDriverInfo
+PUBLIC 422d9 0 FMOD_System_SetDriver
+PUBLIC 422e3 0 FMOD_System_GetDriver
+PUBLIC 422ed 0 FMOD_System_SetSoftwareChannels
+PUBLIC 422f7 0 FMOD_System_GetSoftwareChannels
+PUBLIC 42301 0 FMOD_System_SetSoftwareFormat
+PUBLIC 4230b 0 FMOD_System_GetSoftwareFormat
+PUBLIC 42315 0 FMOD_System_SetDSPBufferSize
+PUBLIC 4231f 0 FMOD_System_GetDSPBufferSize
+PUBLIC 42329 0 FMOD_System_SetFileSystem
+PUBLIC 42333 0 FMOD_System_AttachFileSystem
+PUBLIC 4233d 0 FMOD_System_SetAdvancedSettings
+PUBLIC 42347 0 FMOD_System_GetAdvancedSettings
+PUBLIC 42351 0 FMOD_System_SetCallback
+PUBLIC 4235b 0 FMOD_System_SetPluginPath
+PUBLIC 42365 0 FMOD_System_LoadPlugin
+PUBLIC 4236f 0 FMOD_System_UnloadPlugin
+PUBLIC 42379 0 FMOD_System_GetNumNestedPlugins
+PUBLIC 42383 0 FMOD_System_GetNestedPlugin
+PUBLIC 4238d 0 FMOD_System_GetNumPlugins
+PUBLIC 42397 0 FMOD_System_GetPluginHandle
+PUBLIC 423a1 0 FMOD_System_GetPluginInfo
+PUBLIC 423ab 0 FMOD_System_SetOutputByPlugin
+PUBLIC 423b5 0 FMOD_System_GetOutputByPlugin
+PUBLIC 423bf 0 FMOD_System_CreateDSPByPlugin
+PUBLIC 423c9 0 FMOD_System_GetDSPInfoByPlugin
+PUBLIC 423d3 0 FMOD_System_RegisterCodec
+PUBLIC 423dd 0 FMOD_System_RegisterDSP
+PUBLIC 423e7 0 FMOD_System_RegisterOutput
+PUBLIC 423f1 0 FMOD_System_Init
+PUBLIC 423fb 0 FMOD_System_Close
+PUBLIC 42405 0 FMOD_System_Update
+PUBLIC 4240f 0 FMOD_System_SetSpeakerPosition
+PUBLIC 4242b 0 FMOD_System_GetSpeakerPosition
+PUBLIC 42451 0 FMOD_System_SetStreamBufferSize
+PUBLIC 4245b 0 FMOD_System_GetStreamBufferSize
+PUBLIC 42465 0 FMOD_System_Set3DSettings
+PUBLIC 4246f 0 FMOD_System_Get3DSettings
+PUBLIC 42479 0 FMOD_System_Set3DNumListeners
+PUBLIC 42483 0 FMOD_System_Get3DNumListeners
+PUBLIC 4248d 0 FMOD_System_Set3DListenerAttributes
+PUBLIC 42497 0 FMOD_System_Get3DListenerAttributes
+PUBLIC 424a1 0 FMOD_System_Set3DRolloffCallback
+PUBLIC 424ab 0 FMOD_System_MixerSuspend
+PUBLIC 424b5 0 FMOD_System_MixerResume
+PUBLIC 424bf 0 FMOD_System_GetDefaultMixMatrix
+PUBLIC 424c9 0 FMOD_System_GetSpeakerModeChannels
+PUBLIC 424d3 0 FMOD_System_GetVersion
+PUBLIC 424dd 0 FMOD_System_GetOutputHandle
+PUBLIC 424e7 0 FMOD_System_GetChannelsPlaying
+PUBLIC 424f1 0 FMOD_System_GetCPUUsage
+PUBLIC 424fb 0 FMOD_System_GetFileUsage
+PUBLIC 42505 0 FMOD_System_CreateSound
+PUBLIC 4250f 0 FMOD_System_CreateStream
+PUBLIC 42519 0 FMOD_System_CreateDSP
+PUBLIC 42523 0 FMOD_System_CreateDSPByType
+PUBLIC 4252d 0 FMOD_System_CreateChannelGroup
+PUBLIC 42537 0 FMOD_System_CreateSoundGroup
+PUBLIC 42541 0 FMOD_System_CreateReverb3D
+PUBLIC 4254b 0 FMOD_System_PlaySound
+PUBLIC 4255b 0 FMOD_System_PlayDSP
+PUBLIC 4256b 0 FMOD_System_GetChannel
+PUBLIC 42575 0 FMOD_System_GetDSPInfoByType
+PUBLIC 4257f 0 FMOD_System_GetMasterChannelGroup
+PUBLIC 42589 0 FMOD_System_GetMasterSoundGroup
+PUBLIC 42593 0 FMOD_System_AttachChannelGroupToPort
+PUBLIC 425b3 0 FMOD_System_DetachChannelGroupFromPort
+PUBLIC 425bd 0 FMOD_System_SetReverbProperties
+PUBLIC 425c7 0 FMOD_System_GetReverbProperties
+PUBLIC 425d1 0 FMOD_System_LockDSP
+PUBLIC 425db 0 FMOD_System_UnlockDSP
+PUBLIC 425e5 0 FMOD_System_GetRecordNumDrivers
+PUBLIC 425ef 0 FMOD_System_GetRecordDriverInfo
+PUBLIC 425f9 0 FMOD_System_GetRecordPosition
+PUBLIC 42603 0 FMOD_System_RecordStart
+PUBLIC 42613 0 FMOD_System_RecordStop
+PUBLIC 4261d 0 FMOD_System_IsRecording
+PUBLIC 42641 0 FMOD_System_CreateGeometry
+PUBLIC 4264b 0 FMOD_System_SetGeometrySettings
+PUBLIC 42655 0 FMOD_System_GetGeometrySettings
+PUBLIC 4265f 0 FMOD_System_LoadGeometry
+PUBLIC 42669 0 FMOD_System_GetGeometryOcclusion
+PUBLIC 42673 0 FMOD_System_SetNetworkProxy
+PUBLIC 4267d 0 FMOD_System_GetNetworkProxy
+PUBLIC 42687 0 FMOD_System_SetNetworkTimeout
+PUBLIC 42691 0 FMOD_System_GetNetworkTimeout
+PUBLIC 4269b 0 FMOD_System_SetUserData
+PUBLIC 426a5 0 FMOD_System_GetUserData
+PUBLIC 426af 0 FMOD_Sound_Release
+PUBLIC 426b9 0 FMOD_Sound_GetSystemObject
+PUBLIC 426c3 0 FMOD_Sound_Lock
+PUBLIC 426cd 0 FMOD_Sound_Unlock
+PUBLIC 426d7 0 FMOD_Sound_SetDefaults
+PUBLIC 426e1 0 FMOD_Sound_GetDefaults
+PUBLIC 426eb 0 FMOD_Sound_Set3DMinMaxDistance
+PUBLIC 426f5 0 FMOD_Sound_Get3DMinMaxDistance
+PUBLIC 426ff 0 FMOD_Sound_Set3DConeSettings
+PUBLIC 42709 0 FMOD_Sound_Get3DConeSettings
+PUBLIC 42713 0 FMOD_Sound_Set3DCustomRolloff
+PUBLIC 4271d 0 FMOD_Sound_Get3DCustomRolloff
+PUBLIC 42727 0 FMOD_Sound_GetSubSound
+PUBLIC 42731 0 FMOD_Sound_GetSubSoundParent
+PUBLIC 4273b 0 FMOD_Sound_GetName
+PUBLIC 42745 0 FMOD_Sound_GetLength
+PUBLIC 4274f 0 FMOD_Sound_GetFormat
+PUBLIC 42759 0 FMOD_Sound_GetNumSubSounds
+PUBLIC 42763 0 FMOD_Sound_GetNumTags
+PUBLIC 4276d 0 FMOD_Sound_GetTag
+PUBLIC 42777 0 FMOD_Sound_GetOpenState
+PUBLIC 427ab 0 FMOD_Sound_ReadData
+PUBLIC 427b5 0 FMOD_Sound_SeekData
+PUBLIC 427bf 0 FMOD_Sound_SetSoundGroup
+PUBLIC 427c9 0 FMOD_Sound_GetSoundGroup
+PUBLIC 427d3 0 FMOD_Sound_GetNumSyncPoints
+PUBLIC 427dd 0 FMOD_Sound_GetSyncPoint
+PUBLIC 427e7 0 FMOD_Sound_GetSyncPointInfo
+PUBLIC 427f1 0 FMOD_Sound_AddSyncPoint
+PUBLIC 427fb 0 FMOD_Sound_DeleteSyncPoint
+PUBLIC 42805 0 FMOD_Sound_SetMode
+PUBLIC 4280f 0 FMOD_Sound_GetMode
+PUBLIC 42819 0 FMOD_Sound_SetLoopCount
+PUBLIC 42823 0 FMOD_Sound_GetLoopCount
+PUBLIC 4282d 0 FMOD_Sound_SetLoopPoints
+PUBLIC 42837 0 FMOD_Sound_GetLoopPoints
+PUBLIC 42841 0 FMOD_Sound_GetMusicNumChannels
+PUBLIC 4284b 0 FMOD_Sound_SetMusicChannelVolume
+PUBLIC 42855 0 FMOD_Sound_GetMusicChannelVolume
+PUBLIC 4285f 0 FMOD_Sound_SetMusicSpeed
+PUBLIC 42869 0 FMOD_Sound_GetMusicSpeed
+PUBLIC 42873 0 FMOD_Sound_SetUserData
+PUBLIC 4287d 0 FMOD_Sound_GetUserData
+PUBLIC 42887 0 FMOD_Channel_GetSystemObject
+PUBLIC 42891 0 FMOD_Channel_Stop
+PUBLIC 4289b 0 FMOD_Channel_SetPaused
+PUBLIC 428ab 0 FMOD_Channel_GetPaused
+PUBLIC 428cb 0 FMOD_Channel_SetVolume
+PUBLIC 428d5 0 FMOD_Channel_GetVolume
+PUBLIC 428df 0 FMOD_Channel_SetVolumeRamp
+PUBLIC 428ef 0 FMOD_Channel_GetVolumeRamp
+PUBLIC 4290f 0 FMOD_Channel_GetAudibility
+PUBLIC 42919 0 FMOD_Channel_SetPitch
+PUBLIC 42923 0 FMOD_Channel_GetPitch
+PUBLIC 4292d 0 FMOD_Channel_SetMute
+PUBLIC 4293d 0 FMOD_Channel_GetMute
+PUBLIC 4295d 0 FMOD_Channel_SetReverbProperties
+PUBLIC 42967 0 FMOD_Channel_GetReverbProperties
+PUBLIC 42971 0 FMOD_Channel_SetLowPassGain
+PUBLIC 4297b 0 FMOD_Channel_GetLowPassGain
+PUBLIC 42985 0 FMOD_Channel_SetMode
+PUBLIC 4298f 0 FMOD_Channel_GetMode
+PUBLIC 42999 0 FMOD_Channel_SetCallback
+PUBLIC 429a3 0 FMOD_Channel_IsPlaying
+PUBLIC 429c3 0 FMOD_Channel_SetPan
+PUBLIC 429cd 0 FMOD_Channel_SetMixLevelsOutput
+PUBLIC 429d7 0 FMOD_Channel_SetMixLevelsInput
+PUBLIC 429e1 0 FMOD_Channel_SetMixMatrix
+PUBLIC 429eb 0 FMOD_Channel_GetMixMatrix
+PUBLIC 429f5 0 FMOD_Channel_GetDSPClock
+PUBLIC 429ff 0 FMOD_Channel_SetDelay
+PUBLIC 42a23 0 FMOD_Channel_GetDelay
+PUBLIC 42a43 0 FMOD_Channel_AddFadePoint
+PUBLIC 42a4d 0 FMOD_Channel_SetFadePointRamp
+PUBLIC 42a57 0 FMOD_Channel_RemoveFadePoints
+PUBLIC 42a61 0 FMOD_Channel_GetFadePoints
+PUBLIC 42a6b 0 FMOD_Channel_GetDSP
+PUBLIC 42a75 0 FMOD_Channel_AddDSP
+PUBLIC 42a7f 0 FMOD_Channel_RemoveDSP
+PUBLIC 42a89 0 FMOD_Channel_GetNumDSPs
+PUBLIC 42a93 0 FMOD_Channel_SetDSPIndex
+PUBLIC 42a9d 0 FMOD_Channel_GetDSPIndex
+PUBLIC 42aa7 0 FMOD_Channel_Set3DAttributes
+PUBLIC 42ab1 0 FMOD_Channel_Get3DAttributes
+PUBLIC 42abb 0 FMOD_Channel_Set3DMinMaxDistance
+PUBLIC 42ac5 0 FMOD_Channel_Get3DMinMaxDistance
+PUBLIC 42acf 0 FMOD_Channel_Set3DConeSettings
+PUBLIC 42ad9 0 FMOD_Channel_Get3DConeSettings
+PUBLIC 42ae3 0 FMOD_Channel_Set3DConeOrientation
+PUBLIC 42aed 0 FMOD_Channel_Get3DConeOrientation
+PUBLIC 42af7 0 FMOD_Channel_Set3DCustomRolloff
+PUBLIC 42b01 0 FMOD_Channel_Get3DCustomRolloff
+PUBLIC 42b0b 0 FMOD_Channel_Set3DOcclusion
+PUBLIC 42b15 0 FMOD_Channel_Get3DOcclusion
+PUBLIC 42b1f 0 FMOD_Channel_Set3DSpread
+PUBLIC 42b29 0 FMOD_Channel_Get3DSpread
+PUBLIC 42b33 0 FMOD_Channel_Set3DLevel
+PUBLIC 42b3d 0 FMOD_Channel_Get3DLevel
+PUBLIC 42b47 0 FMOD_Channel_Set3DDopplerLevel
+PUBLIC 42b51 0 FMOD_Channel_Get3DDopplerLevel
+PUBLIC 42b5b 0 FMOD_Channel_Set3DDistanceFilter
+PUBLIC 42b6b 0 FMOD_Channel_Get3DDistanceFilter
+PUBLIC 42b8b 0 FMOD_Channel_SetUserData
+PUBLIC 42b95 0 FMOD_Channel_GetUserData
+PUBLIC 42b9f 0 FMOD_Channel_SetFrequency
+PUBLIC 42ba9 0 FMOD_Channel_GetFrequency
+PUBLIC 42bb3 0 FMOD_Channel_SetPriority
+PUBLIC 42bbd 0 FMOD_Channel_GetPriority
+PUBLIC 42bc7 0 FMOD_Channel_SetPosition
+PUBLIC 42bd1 0 FMOD_Channel_GetPosition
+PUBLIC 42bdb 0 FMOD_Channel_SetChannelGroup
+PUBLIC 42be5 0 FMOD_Channel_GetChannelGroup
+PUBLIC 42bef 0 FMOD_Channel_SetLoopCount
+PUBLIC 42bf9 0 FMOD_Channel_GetLoopCount
+PUBLIC 42c03 0 FMOD_Channel_SetLoopPoints
+PUBLIC 42c0d 0 FMOD_Channel_GetLoopPoints
+PUBLIC 42c17 0 FMOD_Channel_IsVirtual
+PUBLIC 42c37 0 FMOD_Channel_GetCurrentSound
+PUBLIC 42c41 0 FMOD_Channel_GetIndex
+PUBLIC 42c4b 0 FMOD_ChannelGroup_GetSystemObject
+PUBLIC 42c55 0 FMOD_ChannelGroup_Stop
+PUBLIC 42c5f 0 FMOD_ChannelGroup_SetPaused
+PUBLIC 42c6f 0 FMOD_ChannelGroup_GetPaused
+PUBLIC 42c93 0 FMOD_ChannelGroup_SetVolume
+PUBLIC 42c9d 0 FMOD_ChannelGroup_GetVolume
+PUBLIC 42ca7 0 FMOD_ChannelGroup_SetVolumeRamp
+PUBLIC 42cb7 0 FMOD_ChannelGroup_GetVolumeRamp
+PUBLIC 42cdb 0 FMOD_ChannelGroup_GetAudibility
+PUBLIC 42ce5 0 FMOD_ChannelGroup_SetPitch
+PUBLIC 42cef 0 FMOD_ChannelGroup_GetPitch
+PUBLIC 42cf9 0 FMOD_ChannelGroup_SetMute
+PUBLIC 42d09 0 FMOD_ChannelGroup_GetMute
+PUBLIC 42d2d 0 FMOD_ChannelGroup_SetReverbProperties
+PUBLIC 42d37 0 FMOD_ChannelGroup_GetReverbProperties
+PUBLIC 42d41 0 FMOD_ChannelGroup_SetLowPassGain
+PUBLIC 42d4b 0 FMOD_ChannelGroup_GetLowPassGain
+PUBLIC 42d55 0 FMOD_ChannelGroup_SetMode
+PUBLIC 42d5f 0 FMOD_ChannelGroup_GetMode
+PUBLIC 42d69 0 FMOD_ChannelGroup_SetCallback
+PUBLIC 42d73 0 FMOD_ChannelGroup_IsPlaying
+PUBLIC 42d97 0 FMOD_ChannelGroup_SetPan
+PUBLIC 42da1 0 FMOD_ChannelGroup_SetMixLevelsOutput
+PUBLIC 42dab 0 FMOD_ChannelGroup_SetMixLevelsInput
+PUBLIC 42db5 0 FMOD_ChannelGroup_SetMixMatrix
+PUBLIC 42dbf 0 FMOD_ChannelGroup_GetMixMatrix
+PUBLIC 42dc9 0 FMOD_ChannelGroup_GetDSPClock
+PUBLIC 42dd3 0 FMOD_ChannelGroup_SetDelay
+PUBLIC 42df7 0 FMOD_ChannelGroup_GetDelay
+PUBLIC 42e1b 0 FMOD_ChannelGroup_AddFadePoint
+PUBLIC 42e25 0 FMOD_ChannelGroup_SetFadePointRamp
+PUBLIC 42e2f 0 FMOD_ChannelGroup_RemoveFadePoints
+PUBLIC 42e39 0 FMOD_ChannelGroup_GetFadePoints
+PUBLIC 42e43 0 FMOD_ChannelGroup_GetDSP
+PUBLIC 42e4d 0 FMOD_ChannelGroup_AddDSP
+PUBLIC 42e57 0 FMOD_ChannelGroup_RemoveDSP
+PUBLIC 42e61 0 FMOD_ChannelGroup_GetNumDSPs
+PUBLIC 42e6b 0 FMOD_ChannelGroup_SetDSPIndex
+PUBLIC 42e75 0 FMOD_ChannelGroup_GetDSPIndex
+PUBLIC 42e7f 0 FMOD_ChannelGroup_Set3DAttributes
+PUBLIC 42e89 0 FMOD_ChannelGroup_Get3DAttributes
+PUBLIC 42e93 0 FMOD_ChannelGroup_Set3DMinMaxDistance
+PUBLIC 42e9d 0 FMOD_ChannelGroup_Get3DMinMaxDistance
+PUBLIC 42ea7 0 FMOD_ChannelGroup_Set3DConeSettings
+PUBLIC 42eb1 0 FMOD_ChannelGroup_Get3DConeSettings
+PUBLIC 42ebb 0 FMOD_ChannelGroup_Set3DConeOrientation
+PUBLIC 42ec5 0 FMOD_ChannelGroup_Get3DConeOrientation
+PUBLIC 42ecf 0 FMOD_ChannelGroup_Set3DCustomRolloff
+PUBLIC 42ed9 0 FMOD_ChannelGroup_Get3DCustomRolloff
+PUBLIC 42ee3 0 FMOD_ChannelGroup_Set3DOcclusion
+PUBLIC 42eed 0 FMOD_ChannelGroup_Get3DOcclusion
+PUBLIC 42ef7 0 FMOD_ChannelGroup_Set3DSpread
+PUBLIC 42f01 0 FMOD_ChannelGroup_Get3DSpread
+PUBLIC 42f0b 0 FMOD_ChannelGroup_Set3DLevel
+PUBLIC 42f15 0 FMOD_ChannelGroup_Get3DLevel
+PUBLIC 42f1f 0 FMOD_ChannelGroup_Set3DDopplerLevel
+PUBLIC 42f29 0 FMOD_ChannelGroup_Get3DDopplerLevel
+PUBLIC 42f33 0 FMOD_ChannelGroup_Set3DDistanceFilter
+PUBLIC 42f43 0 FMOD_ChannelGroup_Get3DDistanceFilter
+PUBLIC 42f67 0 FMOD_ChannelGroup_SetUserData
+PUBLIC 42f71 0 FMOD_ChannelGroup_GetUserData
+PUBLIC 42f7b 0 FMOD_ChannelGroup_Release
+PUBLIC 42f85 0 FMOD_ChannelGroup_AddGroup
+PUBLIC 42f95 0 FMOD_ChannelGroup_GetNumGroups
+PUBLIC 42f9f 0 FMOD_ChannelGroup_GetGroup
+PUBLIC 42fa9 0 FMOD_ChannelGroup_GetParentGroup
+PUBLIC 42fb3 0 FMOD_ChannelGroup_GetName
+PUBLIC 42fbd 0 FMOD_ChannelGroup_GetNumChannels
+PUBLIC 42fc7 0 FMOD_ChannelGroup_GetChannel
+PUBLIC 42fd1 0 FMOD_SoundGroup_Release
+PUBLIC 42fdb 0 FMOD_SoundGroup_GetSystemObject
+PUBLIC 42fe5 0 FMOD_SoundGroup_SetMaxAudible
+PUBLIC 42fef 0 FMOD_SoundGroup_GetMaxAudible
+PUBLIC 42ff9 0 FMOD_SoundGroup_SetMaxAudibleBehavior
+PUBLIC 43003 0 FMOD_SoundGroup_GetMaxAudibleBehavior
+PUBLIC 4300d 0 FMOD_SoundGroup_SetMuteFadeSpeed
+PUBLIC 43017 0 FMOD_SoundGroup_GetMuteFadeSpeed
+PUBLIC 43021 0 FMOD_SoundGroup_SetVolume
+PUBLIC 4302b 0 FMOD_SoundGroup_GetVolume
+PUBLIC 43035 0 FMOD_SoundGroup_Stop
+PUBLIC 4303f 0 FMOD_SoundGroup_GetName
+PUBLIC 43049 0 FMOD_SoundGroup_GetNumSounds
+PUBLIC 43053 0 FMOD_SoundGroup_GetSound
+PUBLIC 4305d 0 FMOD_SoundGroup_GetNumPlaying
+PUBLIC 43067 0 FMOD_SoundGroup_SetUserData
+PUBLIC 43071 0 FMOD_SoundGroup_GetUserData
+PUBLIC 4307b 0 FMOD_DSP_Release
+PUBLIC 43085 0 FMOD_DSP_GetSystemObject
+PUBLIC 4308f 0 FMOD_DSP_AddInput
+PUBLIC 43099 0 FMOD_DSP_DisconnectFrom
+PUBLIC 430a3 0 FMOD_DSP_DisconnectAll
+PUBLIC 430b9 0 FMOD_DSP_GetNumInputs
+PUBLIC 430c3 0 FMOD_DSP_GetNumOutputs
+PUBLIC 430cd 0 FMOD_DSP_GetInput
+PUBLIC 430d7 0 FMOD_DSP_GetOutput
+PUBLIC 430e1 0 FMOD_DSP_SetActive
+PUBLIC 430f1 0 FMOD_DSP_GetActive
+PUBLIC 43115 0 FMOD_DSP_SetBypass
+PUBLIC 43125 0 FMOD_DSP_GetBypass
+PUBLIC 43149 0 FMOD_DSP_SetWetDryMix
+PUBLIC 43153 0 FMOD_DSP_GetWetDryMix
+PUBLIC 4315d 0 FMOD_DSP_SetChannelFormat
+PUBLIC 43167 0 FMOD_DSP_GetChannelFormat
+PUBLIC 43171 0 FMOD_DSP_GetOutputChannelFormat
+PUBLIC 4317b 0 FMOD_DSP_Reset
+PUBLIC 43185 0 FMOD_DSP_SetCallback
+PUBLIC 4318f 0 FMOD_DSP_SetParameterFloat
+PUBLIC 43199 0 FMOD_DSP_SetParameterInt
+PUBLIC 431a3 0 FMOD_DSP_SetParameterBool
+PUBLIC 431b3 0 FMOD_DSP_SetParameterData
+PUBLIC 431bd 0 FMOD_DSP_GetParameterFloat
+PUBLIC 431c7 0 FMOD_DSP_GetParameterInt
+PUBLIC 431d1 0 FMOD_DSP_GetParameterBool
+PUBLIC 431f9 0 FMOD_DSP_GetParameterData
+PUBLIC 43203 0 FMOD_DSP_GetNumParameters
+PUBLIC 4320d 0 FMOD_DSP_GetParameterInfo
+PUBLIC 43217 0 FMOD_DSP_GetDataParameterIndex
+PUBLIC 43221 0 FMOD_DSP_ShowConfigDialog
+PUBLIC 43231 0 FMOD_DSP_GetInfo
+PUBLIC 4323b 0 FMOD_DSP_GetType
+PUBLIC 43245 0 FMOD_DSP_GetIdle
+PUBLIC 43269 0 FMOD_DSP_SetUserData
+PUBLIC 43273 0 FMOD_DSP_GetUserData
+PUBLIC 4327d 0 FMOD_DSP_SetMeteringEnabled
+PUBLIC 43293 0 FMOD_DSP_GetMeteringEnabled
+PUBLIC 432c5 0 FMOD_DSP_GetMeteringInfo
+PUBLIC 432cf 0 FMOD_DSP_GetCPUUsage
+PUBLIC 432d9 0 FMOD_DSPConnection_GetInput
+PUBLIC 432e3 0 FMOD_DSPConnection_GetOutput
+PUBLIC 432ed 0 FMOD_DSPConnection_SetMix
+PUBLIC 432f7 0 FMOD_DSPConnection_GetMix
+PUBLIC 43301 0 FMOD_DSPConnection_SetMixMatrix
+PUBLIC 4330b 0 FMOD_DSPConnection_GetMixMatrix
+PUBLIC 43315 0 FMOD_DSPConnection_GetType
+PUBLIC 4331f 0 FMOD_DSPConnection_SetUserData
+PUBLIC 43329 0 FMOD_DSPConnection_GetUserData
+PUBLIC 43333 0 FMOD_Geometry_Release
+PUBLIC 4333d 0 FMOD_Geometry_AddPolygon
+PUBLIC 4334d 0 FMOD_Geometry_GetNumPolygons
+PUBLIC 43357 0 FMOD_Geometry_GetMaxPolygons
+PUBLIC 43361 0 FMOD_Geometry_GetPolygonNumVertices
+PUBLIC 4336b 0 FMOD_Geometry_SetPolygonVertex
+PUBLIC 43375 0 FMOD_Geometry_GetPolygonVertex
+PUBLIC 4337f 0 FMOD_Geometry_SetPolygonAttributes
+PUBLIC 4339b 0 FMOD_Geometry_GetPolygonAttributes
+PUBLIC 433c1 0 FMOD_Geometry_SetActive
+PUBLIC 433d1 0 FMOD_Geometry_GetActive
+PUBLIC 433f5 0 FMOD_Geometry_SetRotation
+PUBLIC 433ff 0 FMOD_Geometry_GetRotation
+PUBLIC 43409 0 FMOD_Geometry_SetPosition
+PUBLIC 43413 0 FMOD_Geometry_GetPosition
+PUBLIC 4341d 0 FMOD_Geometry_SetScale
+PUBLIC 43427 0 FMOD_Geometry_GetScale
+PUBLIC 43431 0 FMOD_Geometry_Save
+PUBLIC 4343b 0 FMOD_Geometry_SetUserData
+PUBLIC 43445 0 FMOD_Geometry_GetUserData
+PUBLIC 4344f 0 FMOD_Reverb3D_Release
+PUBLIC 43459 0 FMOD_Reverb3D_Set3DAttributes
+PUBLIC 43463 0 FMOD_Reverb3D_Get3DAttributes
+PUBLIC 4346d 0 FMOD_Reverb3D_SetProperties
+PUBLIC 43477 0 FMOD_Reverb3D_GetProperties
+PUBLIC 43481 0 FMOD_Reverb3D_SetActive
+PUBLIC 43491 0 FMOD_Reverb3D_GetActive
+PUBLIC 434b5 0 FMOD_Reverb3D_SetUserData
+PUBLIC 434bf 0 FMOD_Reverb3D_GetUserData
+PUBLIC 49239 0 FMOD::ChannelI::validate(FMOD::Channel*, FMOD::ChannelI**, FMOD::SystemLockScope*)
+PUBLIC 4da59 0 FMOD::GeometryI::setUserData(void*)
+PUBLIC 4da5f 0 FMOD::GeometryI::getUserData(void**)
+PUBLIC 4dc09 0 FMOD::getGlobals(FMOD::Global**)
+PUBLIC 55acf 0 FMOD::SoundI::setUserDataInternal(void*)
+PUBLIC 55ad7 0 FMOD::SoundI::getUserDataInternal(void**)
+PUBLIC 55b19 0 FMOD::SystemI::validate(FMOD::System*, FMOD::SystemI**, FMOD::SystemLockScope*)
+PUBLIC 55b5d 0 FMOD::SystemI::createClientProfile()
+PUBLIC 56aed 0 FMOD::SystemI::setInternalCallback(int, FMOD_RESULT (*)(FMOD_SYSTEM*, unsigned int, void*, void*, void*), void*)
+PUBLIC 5bcab 0 FMOD5_Memory_Initialize
+PUBLIC 5bcaf 0 FMOD5_Memory_GetStats
+PUBLIC 5bcb3 0 FMOD5_Debug_Initialize
+PUBLIC 5bcb7 0 FMOD5_File_SetDiskBusy
+PUBLIC 5bcbb 0 FMOD5_File_GetDiskBusy
+PUBLIC 5bcbf 0 FMOD5_Thread_SetAttributes
+PUBLIC 5bcc3 0 FMOD5_System_Create
+PUBLIC 5bcc7 0 FMOD5_System_Release
+PUBLIC 5bccb 0 FMOD5_System_SetOutput
+PUBLIC 5bccf 0 FMOD5_System_GetOutput
+PUBLIC 5bcd3 0 FMOD5_System_GetNumDrivers
+PUBLIC 5bcd7 0 FMOD5_System_GetDriverInfo
+PUBLIC 5bcdb 0 FMOD5_System_SetDriver
+PUBLIC 5bcdf 0 FMOD5_System_GetDriver
+PUBLIC 5bce3 0 FMOD5_System_SetSoftwareChannels
+PUBLIC 5bce7 0 FMOD5_System_GetSoftwareChannels
+PUBLIC 5bceb 0 FMOD5_System_SetSoftwareFormat
+PUBLIC 5bcef 0 FMOD5_System_GetSoftwareFormat
+PUBLIC 5bcf3 0 FMOD5_System_SetDSPBufferSize
+PUBLIC 5bcf7 0 FMOD5_System_GetDSPBufferSize
+PUBLIC 5bcfb 0 FMOD5_System_SetFileSystem
+PUBLIC 5bcff 0 FMOD5_System_AttachFileSystem
+PUBLIC 5bd03 0 FMOD5_System_SetAdvancedSettings
+PUBLIC 5bd07 0 FMOD5_System_GetAdvancedSettings
+PUBLIC 5bd0b 0 FMOD5_System_SetCallback
+PUBLIC 5bd0f 0 FMOD5_System_SetPluginPath
+PUBLIC 5bd13 0 FMOD5_System_LoadPlugin
+PUBLIC 5bd17 0 FMOD5_System_UnloadPlugin
+PUBLIC 5bd1b 0 FMOD5_System_GetNumNestedPlugins
+PUBLIC 5bd1f 0 FMOD5_System_GetNestedPlugin
+PUBLIC 5bd23 0 FMOD5_System_GetNumPlugins
+PUBLIC 5bd27 0 FMOD5_System_GetPluginHandle
+PUBLIC 5bd2b 0 FMOD5_System_GetPluginInfo
+PUBLIC 5bd2f 0 FMOD5_System_SetOutputByPlugin
+PUBLIC 5bd33 0 FMOD5_System_GetOutputByPlugin
+PUBLIC 5bd37 0 FMOD5_System_CreateDSPByPlugin
+PUBLIC 5bd3b 0 FMOD5_System_GetDSPInfoByPlugin
+PUBLIC 5bd3f 0 FMOD5_System_RegisterCodec
+PUBLIC 5bd43 0 FMOD5_System_RegisterDSP
+PUBLIC 5bd47 0 FMOD5_System_RegisterOutput
+PUBLIC 5bd4b 0 FMOD5_System_Init
+PUBLIC 5bd4f 0 FMOD5_System_Close
+PUBLIC 5bd53 0 FMOD5_System_Update
+PUBLIC 5bd57 0 FMOD5_System_SetSpeakerPosition
+PUBLIC 5bd5b 0 FMOD5_System_GetSpeakerPosition
+PUBLIC 5bd5f 0 FMOD5_System_SetStreamBufferSize
+PUBLIC 5bd63 0 FMOD5_System_GetStreamBufferSize
+PUBLIC 5bd67 0 FMOD5_System_Set3DSettings
+PUBLIC 5bd6b 0 FMOD5_System_Get3DSettings
+PUBLIC 5bd6f 0 FMOD5_System_Set3DNumListeners
+PUBLIC 5bd73 0 FMOD5_System_Get3DNumListeners
+PUBLIC 5bd77 0 FMOD5_System_Set3DListenerAttributes
+PUBLIC 5bd7b 0 FMOD5_System_Get3DListenerAttributes
+PUBLIC 5bd7f 0 FMOD5_System_Set3DRolloffCallback
+PUBLIC 5bd83 0 FMOD5_System_MixerSuspend
+PUBLIC 5bd87 0 FMOD5_System_MixerResume
+PUBLIC 5bd8b 0 FMOD5_System_GetDefaultMixMatrix
+PUBLIC 5bd8f 0 FMOD5_System_GetSpeakerModeChannels
+PUBLIC 5bd93 0 FMOD5_System_GetVersion
+PUBLIC 5bd97 0 FMOD5_System_GetOutputHandle
+PUBLIC 5bd9b 0 FMOD5_System_GetChannelsPlaying
+PUBLIC 5bd9f 0 FMOD5_System_GetCPUUsage
+PUBLIC 5bda3 0 FMOD5_System_GetFileUsage
+PUBLIC 5bda7 0 FMOD5_System_CreateSound
+PUBLIC 5bdab 0 FMOD5_System_CreateStream
+PUBLIC 5bdaf 0 FMOD5_System_CreateDSP
+PUBLIC 5bdb3 0 FMOD5_System_CreateDSPByType
+PUBLIC 5bdb7 0 FMOD5_System_CreateChannelGroup
+PUBLIC 5bdbb 0 FMOD5_System_CreateSoundGroup
+PUBLIC 5bdbf 0 FMOD5_System_CreateReverb3D
+PUBLIC 5bdc3 0 FMOD5_System_PlaySound
+PUBLIC 5bdc7 0 FMOD5_System_PlayDSP
+PUBLIC 5bdcb 0 FMOD5_System_GetDSPInfoByType
+PUBLIC 5bdcf 0 FMOD5_System_GetChannel
+PUBLIC 5bdd3 0 FMOD5_System_GetMasterChannelGroup
+PUBLIC 5bdd7 0 FMOD5_System_GetMasterSoundGroup
+PUBLIC 5bddb 0 FMOD5_System_AttachChannelGroupToPort
+PUBLIC 5bddf 0 FMOD5_System_DetachChannelGroupFromPort
+PUBLIC 5bde3 0 FMOD5_System_SetReverbProperties
+PUBLIC 5bde7 0 FMOD5_System_GetReverbProperties
+PUBLIC 5bdeb 0 FMOD5_System_LockDSP
+PUBLIC 5bdef 0 FMOD5_System_UnlockDSP
+PUBLIC 5bdf3 0 FMOD5_System_GetRecordNumDrivers
+PUBLIC 5bdf7 0 FMOD5_System_GetRecordDriverInfo
+PUBLIC 5bdfb 0 FMOD5_System_GetRecordPosition
+PUBLIC 5bdff 0 FMOD5_System_RecordStart
+PUBLIC 5be03 0 FMOD5_System_RecordStop
+PUBLIC 5be07 0 FMOD5_System_IsRecording
+PUBLIC 5be0b 0 FMOD5_System_CreateGeometry
+PUBLIC 5be0f 0 FMOD5_System_SetGeometrySettings
+PUBLIC 5be13 0 FMOD5_System_GetGeometrySettings
+PUBLIC 5be17 0 FMOD5_System_LoadGeometry
+PUBLIC 5be1b 0 FMOD5_System_GetGeometryOcclusion
+PUBLIC 5be1f 0 FMOD5_System_SetNetworkProxy
+PUBLIC 5be23 0 FMOD5_System_GetNetworkProxy
+PUBLIC 5be27 0 FMOD5_System_SetNetworkTimeout
+PUBLIC 5be2b 0 FMOD5_System_GetNetworkTimeout
+PUBLIC 5be2f 0 FMOD5_System_SetUserData
+PUBLIC 5be33 0 FMOD5_System_GetUserData
+PUBLIC 5be37 0 FMOD5_Sound_Release
+PUBLIC 5be3b 0 FMOD5_Sound_GetSystemObject
+PUBLIC 5be3f 0 FMOD5_Sound_Lock
+PUBLIC 5be43 0 FMOD5_Sound_Unlock
+PUBLIC 5be47 0 FMOD5_Sound_SetDefaults
+PUBLIC 5be4b 0 FMOD5_Sound_GetDefaults
+PUBLIC 5be4f 0 FMOD5_Sound_Set3DMinMaxDistance
+PUBLIC 5be53 0 FMOD5_Sound_Get3DMinMaxDistance
+PUBLIC 5be57 0 FMOD5_Sound_Set3DConeSettings
+PUBLIC 5be5b 0 FMOD5_Sound_Get3DConeSettings
+PUBLIC 5be5f 0 FMOD5_Sound_Set3DCustomRolloff
+PUBLIC 5be63 0 FMOD5_Sound_Get3DCustomRolloff
+PUBLIC 5be67 0 FMOD5_Sound_GetSubSound
+PUBLIC 5be6b 0 FMOD5_Sound_GetSubSoundParent
+PUBLIC 5be6f 0 FMOD5_Sound_GetName
+PUBLIC 5be73 0 FMOD5_Sound_GetLength
+PUBLIC 5be77 0 FMOD5_Sound_GetFormat
+PUBLIC 5be7b 0 FMOD5_Sound_GetNumSubSounds
+PUBLIC 5be7f 0 FMOD5_Sound_GetNumTags
+PUBLIC 5be83 0 FMOD5_Sound_GetTag
+PUBLIC 5be87 0 FMOD5_Sound_GetOpenState
+PUBLIC 5be8b 0 FMOD5_Sound_ReadData
+PUBLIC 5be8f 0 FMOD5_Sound_SeekData
+PUBLIC 5be93 0 FMOD5_Sound_SetSoundGroup
+PUBLIC 5be97 0 FMOD5_Sound_GetSoundGroup
+PUBLIC 5be9b 0 FMOD5_Sound_GetNumSyncPoints
+PUBLIC 5be9f 0 FMOD5_Sound_GetSyncPoint
+PUBLIC 5bea3 0 FMOD5_Sound_GetSyncPointInfo
+PUBLIC 5bea7 0 FMOD5_Sound_AddSyncPoint
+PUBLIC 5beab 0 FMOD5_Sound_DeleteSyncPoint
+PUBLIC 5beaf 0 FMOD5_Sound_SetMode
+PUBLIC 5beb3 0 FMOD5_Sound_GetMode
+PUBLIC 5beb7 0 FMOD5_Sound_SetLoopCount
+PUBLIC 5bebb 0 FMOD5_Sound_GetLoopCount
+PUBLIC 5bebf 0 FMOD5_Sound_SetLoopPoints
+PUBLIC 5bec3 0 FMOD5_Sound_GetLoopPoints
+PUBLIC 5bec7 0 FMOD5_Sound_GetMusicNumChannels
+PUBLIC 5becb 0 FMOD5_Sound_SetMusicChannelVolume
+PUBLIC 5becf 0 FMOD5_Sound_GetMusicChannelVolume
+PUBLIC 5bed3 0 FMOD5_Sound_SetMusicSpeed
+PUBLIC 5bed7 0 FMOD5_Sound_GetMusicSpeed
+PUBLIC 5bedb 0 FMOD5_Sound_SetUserData
+PUBLIC 5bedf 0 FMOD5_Sound_GetUserData
+PUBLIC 5bee3 0 FMOD5_Channel_GetSystemObject
+PUBLIC 5bee7 0 FMOD5_Channel_Stop
+PUBLIC 5beeb 0 FMOD5_Channel_SetPaused
+PUBLIC 5beef 0 FMOD5_Channel_GetPaused
+PUBLIC 5bef3 0 FMOD5_Channel_SetVolume
+PUBLIC 5bef7 0 FMOD5_Channel_GetVolume
+PUBLIC 5befb 0 FMOD5_Channel_SetVolumeRamp
+PUBLIC 5beff 0 FMOD5_Channel_GetVolumeRamp
+PUBLIC 5bf03 0 FMOD5_Channel_GetAudibility
+PUBLIC 5bf07 0 FMOD5_Channel_SetPitch
+PUBLIC 5bf0b 0 FMOD5_Channel_GetPitch
+PUBLIC 5bf0f 0 FMOD5_Channel_SetMute
+PUBLIC 5bf13 0 FMOD5_Channel_GetMute
+PUBLIC 5bf17 0 FMOD5_Channel_SetReverbProperties
+PUBLIC 5bf1b 0 FMOD5_Channel_GetReverbProperties
+PUBLIC 5bf1f 0 FMOD5_Channel_SetLowPassGain
+PUBLIC 5bf23 0 FMOD5_Channel_GetLowPassGain
+PUBLIC 5bf27 0 FMOD5_Channel_SetMode
+PUBLIC 5bf2b 0 FMOD5_Channel_GetMode
+PUBLIC 5bf2f 0 FMOD5_Channel_SetCallback
+PUBLIC 5bf33 0 FMOD5_Channel_IsPlaying
+PUBLIC 5bf37 0 FMOD5_Channel_SetPan
+PUBLIC 5bf3b 0 FMOD5_Channel_SetMixLevelsOutput
+PUBLIC 5bf3f 0 FMOD5_Channel_SetMixLevelsInput
+PUBLIC 5bf43 0 FMOD5_Channel_SetMixMatrix
+PUBLIC 5bf47 0 FMOD5_Channel_GetMixMatrix
+PUBLIC 5bf4b 0 FMOD5_Channel_GetDSPClock
+PUBLIC 5bf4f 0 FMOD5_Channel_SetDelay
+PUBLIC 5bf53 0 FMOD5_Channel_GetDelay
+PUBLIC 5bf57 0 FMOD5_Channel_AddFadePoint
+PUBLIC 5bf5b 0 FMOD5_Channel_SetFadePointRamp
+PUBLIC 5bf5f 0 FMOD5_Channel_RemoveFadePoints
+PUBLIC 5bf63 0 FMOD5_Channel_GetFadePoints
+PUBLIC 5bf67 0 FMOD5_Channel_GetDSP
+PUBLIC 5bf6b 0 FMOD5_Channel_AddDSP
+PUBLIC 5bf6f 0 FMOD5_Channel_RemoveDSP
+PUBLIC 5bf73 0 FMOD5_Channel_GetNumDSPs
+PUBLIC 5bf77 0 FMOD5_Channel_SetDSPIndex
+PUBLIC 5bf7b 0 FMOD5_Channel_GetDSPIndex
+PUBLIC 5bf7f 0 FMOD5_Channel_Set3DAttributes
+PUBLIC 5bf83 0 FMOD5_Channel_Get3DAttributes
+PUBLIC 5bf87 0 FMOD5_Channel_Set3DMinMaxDistance
+PUBLIC 5bf8b 0 FMOD5_Channel_Get3DMinMaxDistance
+PUBLIC 5bf8f 0 FMOD5_Channel_Set3DConeSettings
+PUBLIC 5bf93 0 FMOD5_Channel_Get3DConeSettings
+PUBLIC 5bf97 0 FMOD5_Channel_Set3DConeOrientation
+PUBLIC 5bf9b 0 FMOD5_Channel_Get3DConeOrientation
+PUBLIC 5bf9f 0 FMOD5_Channel_Set3DCustomRolloff
+PUBLIC 5bfa3 0 FMOD5_Channel_Get3DCustomRolloff
+PUBLIC 5bfa7 0 FMOD5_Channel_Set3DOcclusion
+PUBLIC 5bfab 0 FMOD5_Channel_Get3DOcclusion
+PUBLIC 5bfaf 0 FMOD5_Channel_Set3DSpread
+PUBLIC 5bfb3 0 FMOD5_Channel_Get3DSpread
+PUBLIC 5bfb7 0 FMOD5_Channel_Set3DLevel
+PUBLIC 5bfbb 0 FMOD5_Channel_Get3DLevel
+PUBLIC 5bfbf 0 FMOD5_Channel_Set3DDopplerLevel
+PUBLIC 5bfc3 0 FMOD5_Channel_Get3DDopplerLevel
+PUBLIC 5bfc7 0 FMOD5_Channel_Set3DDistanceFilter
+PUBLIC 5bfcb 0 FMOD5_Channel_Get3DDistanceFilter
+PUBLIC 5bfcf 0 FMOD5_Channel_SetUserData
+PUBLIC 5bfd3 0 FMOD5_Channel_GetUserData
+PUBLIC 5bfd7 0 FMOD5_Channel_SetFrequency
+PUBLIC 5bfdb 0 FMOD5_Channel_GetFrequency
+PUBLIC 5bfdf 0 FMOD5_Channel_SetPriority
+PUBLIC 5bfe3 0 FMOD5_Channel_GetPriority
+PUBLIC 5bfe7 0 FMOD5_Channel_SetPosition
+PUBLIC 5bfeb 0 FMOD5_Channel_GetPosition
+PUBLIC 5bfef 0 FMOD5_Channel_SetChannelGroup
+PUBLIC 5bff3 0 FMOD5_Channel_GetChannelGroup
+PUBLIC 5bff7 0 FMOD5_Channel_SetLoopCount
+PUBLIC 5bffb 0 FMOD5_Channel_GetLoopCount
+PUBLIC 5bfff 0 FMOD5_Channel_SetLoopPoints
+PUBLIC 5c003 0 FMOD5_Channel_GetLoopPoints
+PUBLIC 5c007 0 FMOD5_Channel_IsVirtual
+PUBLIC 5c00b 0 FMOD5_Channel_GetCurrentSound
+PUBLIC 5c00f 0 FMOD5_Channel_GetIndex
+PUBLIC 5c013 0 FMOD5_ChannelGroup_GetSystemObject
+PUBLIC 5c017 0 FMOD5_ChannelGroup_Stop
+PUBLIC 5c01b 0 FMOD5_ChannelGroup_SetPaused
+PUBLIC 5c01f 0 FMOD5_ChannelGroup_GetPaused
+PUBLIC 5c023 0 FMOD5_ChannelGroup_SetVolume
+PUBLIC 5c027 0 FMOD5_ChannelGroup_GetVolume
+PUBLIC 5c02b 0 FMOD5_ChannelGroup_SetVolumeRamp
+PUBLIC 5c02f 0 FMOD5_ChannelGroup_GetVolumeRamp
+PUBLIC 5c033 0 FMOD5_ChannelGroup_GetAudibility
+PUBLIC 5c037 0 FMOD5_ChannelGroup_SetPitch
+PUBLIC 5c03b 0 FMOD5_ChannelGroup_GetPitch
+PUBLIC 5c03f 0 FMOD5_ChannelGroup_SetMute
+PUBLIC 5c043 0 FMOD5_ChannelGroup_GetMute
+PUBLIC 5c047 0 FMOD5_ChannelGroup_SetReverbProperties
+PUBLIC 5c04b 0 FMOD5_ChannelGroup_GetReverbProperties
+PUBLIC 5c04f 0 FMOD5_ChannelGroup_SetLowPassGain
+PUBLIC 5c053 0 FMOD5_ChannelGroup_GetLowPassGain
+PUBLIC 5c057 0 FMOD5_ChannelGroup_SetMode
+PUBLIC 5c05b 0 FMOD5_ChannelGroup_GetMode
+PUBLIC 5c05f 0 FMOD5_ChannelGroup_SetCallback
+PUBLIC 5c063 0 FMOD5_ChannelGroup_IsPlaying
+PUBLIC 5c067 0 FMOD5_ChannelGroup_SetPan
+PUBLIC 5c06b 0 FMOD5_ChannelGroup_SetMixLevelsOutput
+PUBLIC 5c06f 0 FMOD5_ChannelGroup_SetMixLevelsInput
+PUBLIC 5c073 0 FMOD5_ChannelGroup_SetMixMatrix
+PUBLIC 5c077 0 FMOD5_ChannelGroup_GetMixMatrix
+PUBLIC 5c07b 0 FMOD5_ChannelGroup_GetDSPClock
+PUBLIC 5c07f 0 FMOD5_ChannelGroup_SetDelay
+PUBLIC 5c083 0 FMOD5_ChannelGroup_GetDelay
+PUBLIC 5c087 0 FMOD5_ChannelGroup_AddFadePoint
+PUBLIC 5c08b 0 FMOD5_ChannelGroup_SetFadePointRamp
+PUBLIC 5c08f 0 FMOD5_ChannelGroup_RemoveFadePoints
+PUBLIC 5c093 0 FMOD5_ChannelGroup_GetFadePoints
+PUBLIC 5c097 0 FMOD5_ChannelGroup_GetDSP
+PUBLIC 5c09b 0 FMOD5_ChannelGroup_AddDSP
+PUBLIC 5c09f 0 FMOD5_ChannelGroup_RemoveDSP
+PUBLIC 5c0a3 0 FMOD5_ChannelGroup_GetNumDSPs
+PUBLIC 5c0a7 0 FMOD5_ChannelGroup_SetDSPIndex
+PUBLIC 5c0ab 0 FMOD5_ChannelGroup_GetDSPIndex
+PUBLIC 5c0af 0 FMOD5_ChannelGroup_Set3DAttributes
+PUBLIC 5c0b3 0 FMOD5_ChannelGroup_Get3DAttributes
+PUBLIC 5c0b7 0 FMOD5_ChannelGroup_Set3DMinMaxDistance
+PUBLIC 5c0bb 0 FMOD5_ChannelGroup_Get3DMinMaxDistance
+PUBLIC 5c0bf 0 FMOD5_ChannelGroup_Set3DConeSettings
+PUBLIC 5c0c3 0 FMOD5_ChannelGroup_Get3DConeSettings
+PUBLIC 5c0c7 0 FMOD5_ChannelGroup_Set3DConeOrientation
+PUBLIC 5c0cb 0 FMOD5_ChannelGroup_Get3DConeOrientation
+PUBLIC 5c0cf 0 FMOD5_ChannelGroup_Set3DCustomRolloff
+PUBLIC 5c0d3 0 FMOD5_ChannelGroup_Get3DCustomRolloff
+PUBLIC 5c0d7 0 FMOD5_ChannelGroup_Set3DOcclusion
+PUBLIC 5c0db 0 FMOD5_ChannelGroup_Get3DOcclusion
+PUBLIC 5c0df 0 FMOD5_ChannelGroup_Set3DSpread
+PUBLIC 5c0e3 0 FMOD5_ChannelGroup_Get3DSpread
+PUBLIC 5c0e7 0 FMOD5_ChannelGroup_Set3DLevel
+PUBLIC 5c0eb 0 FMOD5_ChannelGroup_Get3DLevel
+PUBLIC 5c0ef 0 FMOD5_ChannelGroup_Set3DDopplerLevel
+PUBLIC 5c0f3 0 FMOD5_ChannelGroup_Get3DDopplerLevel
+PUBLIC 5c0f7 0 FMOD5_ChannelGroup_Set3DDistanceFilter
+PUBLIC 5c0fb 0 FMOD5_ChannelGroup_Get3DDistanceFilter
+PUBLIC 5c0ff 0 FMOD5_ChannelGroup_SetUserData
+PUBLIC 5c103 0 FMOD5_ChannelGroup_GetUserData
+PUBLIC 5c107 0 FMOD5_ChannelGroup_Release
+PUBLIC 5c10b 0 FMOD5_ChannelGroup_AddGroup
+PUBLIC 5c10f 0 FMOD5_ChannelGroup_GetNumGroups
+PUBLIC 5c113 0 FMOD5_ChannelGroup_GetGroup
+PUBLIC 5c117 0 FMOD5_ChannelGroup_GetParentGroup
+PUBLIC 5c11b 0 FMOD5_ChannelGroup_GetName
+PUBLIC 5c11f 0 FMOD5_ChannelGroup_GetNumChannels
+PUBLIC 5c123 0 FMOD5_ChannelGroup_GetChannel
+PUBLIC 5c127 0 FMOD5_SoundGroup_Release
+PUBLIC 5c12b 0 FMOD5_SoundGroup_GetSystemObject
+PUBLIC 5c12f 0 FMOD5_SoundGroup_SetMaxAudible
+PUBLIC 5c133 0 FMOD5_SoundGroup_GetMaxAudible
+PUBLIC 5c137 0 FMOD5_SoundGroup_SetMaxAudibleBehavior
+PUBLIC 5c13b 0 FMOD5_SoundGroup_GetMaxAudibleBehavior
+PUBLIC 5c13f 0 FMOD5_SoundGroup_SetMuteFadeSpeed
+PUBLIC 5c143 0 FMOD5_SoundGroup_GetMuteFadeSpeed
+PUBLIC 5c147 0 FMOD5_SoundGroup_SetVolume
+PUBLIC 5c14b 0 FMOD5_SoundGroup_GetVolume
+PUBLIC 5c14f 0 FMOD5_SoundGroup_Stop
+PUBLIC 5c153 0 FMOD5_SoundGroup_GetName
+PUBLIC 5c157 0 FMOD5_SoundGroup_GetNumSounds
+PUBLIC 5c15b 0 FMOD5_SoundGroup_GetSound
+PUBLIC 5c15f 0 FMOD5_SoundGroup_GetNumPlaying
+PUBLIC 5c163 0 FMOD5_SoundGroup_SetUserData
+PUBLIC 5c167 0 FMOD5_SoundGroup_GetUserData
+PUBLIC 5c16b 0 FMOD5_DSP_Release
+PUBLIC 5c16f 0 FMOD5_DSP_GetSystemObject
+PUBLIC 5c173 0 FMOD5_DSP_AddInput
+PUBLIC 5c177 0 FMOD5_DSP_DisconnectFrom
+PUBLIC 5c17b 0 FMOD5_DSP_DisconnectAll
+PUBLIC 5c17f 0 FMOD5_DSP_GetNumInputs
+PUBLIC 5c183 0 FMOD5_DSP_GetNumOutputs
+PUBLIC 5c187 0 FMOD5_DSP_GetInput
+PUBLIC 5c18b 0 FMOD5_DSP_GetOutput
+PUBLIC 5c18f 0 FMOD5_DSP_SetActive
+PUBLIC 5c193 0 FMOD5_DSP_GetActive
+PUBLIC 5c197 0 FMOD5_DSP_SetBypass
+PUBLIC 5c19b 0 FMOD5_DSP_GetBypass
+PUBLIC 5c19f 0 FMOD5_DSP_SetWetDryMix
+PUBLIC 5c1a3 0 FMOD5_DSP_GetWetDryMix
+PUBLIC 5c1a7 0 FMOD5_DSP_SetChannelFormat
+PUBLIC 5c1ab 0 FMOD5_DSP_GetChannelFormat
+PUBLIC 5c1af 0 FMOD5_DSP_GetOutputChannelFormat
+PUBLIC 5c1b3 0 FMOD5_DSP_Reset
+PUBLIC 5c1b7 0 FMOD5_DSP_SetCallback
+PUBLIC 5c1bb 0 FMOD5_DSP_SetParameterFloat
+PUBLIC 5c1bf 0 FMOD5_DSP_SetParameterInt
+PUBLIC 5c1c3 0 FMOD5_DSP_SetParameterBool
+PUBLIC 5c1c7 0 FMOD5_DSP_SetParameterData
+PUBLIC 5c1cb 0 FMOD5_DSP_GetParameterFloat
+PUBLIC 5c1cf 0 FMOD5_DSP_GetParameterInt
+PUBLIC 5c1d3 0 FMOD5_DSP_GetParameterBool
+PUBLIC 5c1d7 0 FMOD5_DSP_GetParameterData
+PUBLIC 5c1db 0 FMOD5_DSP_GetNumParameters
+PUBLIC 5c1df 0 FMOD5_DSP_GetParameterInfo
+PUBLIC 5c1e3 0 FMOD5_DSP_GetDataParameterIndex
+PUBLIC 5c1e7 0 FMOD5_DSP_ShowConfigDialog
+PUBLIC 5c1eb 0 FMOD5_DSP_GetInfo
+PUBLIC 5c1ef 0 FMOD5_DSP_GetType
+PUBLIC 5c1f3 0 FMOD5_DSP_GetIdle
+PUBLIC 5c1f7 0 FMOD5_DSP_SetUserData
+PUBLIC 5c1fb 0 FMOD5_DSP_GetUserData
+PUBLIC 5c1ff 0 FMOD5_DSP_SetMeteringEnabled
+PUBLIC 5c203 0 FMOD5_DSP_GetMeteringEnabled
+PUBLIC 5c207 0 FMOD5_DSP_GetMeteringInfo
+PUBLIC 5c20b 0 FMOD5_DSP_GetCPUUsage
+PUBLIC 5c20f 0 FMOD5_DSPConnection_GetInput
+PUBLIC 5c213 0 FMOD5_DSPConnection_GetOutput
+PUBLIC 5c217 0 FMOD5_DSPConnection_SetMix
+PUBLIC 5c21b 0 FMOD5_DSPConnection_GetMix
+PUBLIC 5c21f 0 FMOD5_DSPConnection_SetMixMatrix
+PUBLIC 5c223 0 FMOD5_DSPConnection_GetMixMatrix
+PUBLIC 5c227 0 FMOD5_DSPConnection_GetType
+PUBLIC 5c22b 0 FMOD5_DSPConnection_SetUserData
+PUBLIC 5c22f 0 FMOD5_DSPConnection_GetUserData
+PUBLIC 5c233 0 FMOD5_Geometry_Release
+PUBLIC 5c237 0 FMOD5_Geometry_AddPolygon
+PUBLIC 5c23b 0 FMOD5_Geometry_GetNumPolygons
+PUBLIC 5c23f 0 FMOD5_Geometry_GetMaxPolygons
+PUBLIC 5c243 0 FMOD5_Geometry_GetPolygonNumVertices
+PUBLIC 5c247 0 FMOD5_Geometry_SetPolygonVertex
+PUBLIC 5c24b 0 FMOD5_Geometry_GetPolygonVertex
+PUBLIC 5c24f 0 FMOD5_Geometry_SetPolygonAttributes
+PUBLIC 5c253 0 FMOD5_Geometry_GetPolygonAttributes
+PUBLIC 5c257 0 FMOD5_Geometry_SetActive
+PUBLIC 5c25b 0 FMOD5_Geometry_GetActive
+PUBLIC 5c25f 0 FMOD5_Geometry_SetRotation
+PUBLIC 5c263 0 FMOD5_Geometry_GetRotation
+PUBLIC 5c267 0 FMOD5_Geometry_SetPosition
+PUBLIC 5c26b 0 FMOD5_Geometry_GetPosition
+PUBLIC 5c26f 0 FMOD5_Geometry_SetScale
+PUBLIC 5c273 0 FMOD5_Geometry_GetScale
+PUBLIC 5c277 0 FMOD5_Geometry_Save
+PUBLIC 5c27b 0 FMOD5_Geometry_SetUserData
+PUBLIC 5c27f 0 FMOD5_Geometry_GetUserData
+PUBLIC 5c283 0 FMOD5_Reverb3D_Release
+PUBLIC 5c287 0 FMOD5_Reverb3D_Set3DAttributes
+PUBLIC 5c28b 0 FMOD5_Reverb3D_Get3DAttributes
+PUBLIC 5c28f 0 FMOD5_Reverb3D_SetProperties
+PUBLIC 5c293 0 FMOD5_Reverb3D_GetProperties
+PUBLIC 5c297 0 FMOD5_Reverb3D_SetActive
+PUBLIC 5c29b 0 FMOD5_Reverb3D_GetActive
+PUBLIC 5c29f 0 FMOD5_Reverb3D_SetUserData
+PUBLIC 5c2a3 0 FMOD5_Reverb3D_GetUserData
+PUBLIC 61571 0 FMOD::SystemI::createMemoryFile(FMOD::File**)
+PUBLIC 615f9 0 FMOD::SystemI::createDiskFile(char const*, FMOD_CREATESOUNDEXINFO*, FMOD::File**, bool*)
+PUBLIC 6e760 0 FMOD_FADPCM_Decode_ARM
+PUBLIC 89659 0 FMOD::DSPConnection::getInput(FMOD::DSP**)
+PUBLIC 896d1 0 FMOD::DSPConnection::getOutput(FMOD::DSP**)
+PUBLIC 89749 0 FMOD::DSPConnection::setMix(float)
+PUBLIC 897c1 0 FMOD::DSPConnection::getMix(float*)
+PUBLIC 89839 0 FMOD::DSPConnection::setMixMatrix(float*, int, int, int)
+PUBLIC 89941 0 FMOD::DSPConnection::getMixMatrix(float*, int*, int*, int)
+PUBLIC 89a3d 0 FMOD::DSPConnection::getType(FMOD_DSPCONNECTION_TYPE*)
+PUBLIC 89ab5 0 FMOD::DSPConnection::setUserData(void*)
+PUBLIC 89b2d 0 FMOD::DSPConnection::getUserData(void**)
+PUBLIC 8bf50 0 FMOD_DSP_Connection_MixMonoToStereo_VFP
+PUBLIC 8bfd4 0 FMOD_DSP_Connection_MixStereoToStereo_VFP
+PUBLIC 8c034 0 FMOD_DSP_Connection_WriteMonoToStereo_VFP
+PUBLIC 8c0b0 0 FMOD_DSP_Connection_WriteStereoToStereo_VFP
+PUBLIC 9f750 0 FMOD_Resampler_Linear_8Bit_Mono_VFP
+PUBLIC 9f9c8 0 FMOD_Resampler_Linear_8Bit_Stereo_VFP
+PUBLIC 9fbc8 0 FMOD_Resampler_Linear_16Bit_Mono_VFP
+PUBLIC 9fe38 0 FMOD_Resampler_Linear_16Bit_Stereo_VFP
+PUBLIC a79e1 0 FMOD::DSPI::validate(FMOD::DSP*, FMOD::DSPI**, FMOD::SystemLockScope*)
+PUBLIC abe71 0 FMOD::Channel::setPriority(int)
+PUBLIC abee9 0 FMOD::Channel::getPriority(int*)
+PUBLIC abf69 0 FMOD::Channel::setPosition(unsigned int, unsigned int)
+PUBLIC ac021 0 FMOD::Channel::getPosition(unsigned int*, unsigned int)
+PUBLIC ac0dd 0 FMOD::Channel::setChannelGroup(FMOD::ChannelGroup*)
+PUBLIC ac155 0 FMOD::Channel::getChannelGroup(FMOD::ChannelGroup**)
+PUBLIC ac1d5 0 FMOD::Channel::setFrequency(float)
+PUBLIC ac24d 0 FMOD::Channel::getFrequency(float*)
+PUBLIC ac2cd 0 FMOD::Channel::isVirtual(bool*)
+PUBLIC ac351 0 FMOD::Channel::getCurrentSound(FMOD::Sound**)
+PUBLIC ac3d1 0 FMOD::Channel::getIndex(int*)
+PUBLIC ac451 0 FMOD::Channel::setLoopCount(int)
+PUBLIC ac4c9 0 FMOD::Channel::getLoopCount(int*)
+PUBLIC ac549 0 FMOD::Channel::setLoopPoints(unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC ac64d 0 FMOD::Channel::getLoopPoints(unsigned int*, unsigned int, unsigned int*, unsigned int)
+PUBLIC ac755 0 FMOD::ChannelControl::getSystemObject(FMOD::System**)
+PUBLIC ac7c5 0 FMOD::ChannelControl::stop()
+PUBLIC ac829 0 FMOD::ChannelControl::setPaused(bool)
+PUBLIC ac8a5 0 FMOD::ChannelControl::getPaused(bool*)
+PUBLIC ac921 0 FMOD::ChannelControl::setVolume(float)
+PUBLIC ac999 0 FMOD::ChannelControl::getVolume(float*)
+PUBLIC aca15 0 FMOD::ChannelControl::setVolumeRamp(bool)
+PUBLIC aca91 0 FMOD::ChannelControl::getVolumeRamp(bool*)
+PUBLIC acb0d 0 FMOD::ChannelControl::getAudibility(float*)
+PUBLIC acb89 0 FMOD::ChannelControl::setPitch(float)
+PUBLIC acc05 0 FMOD::ChannelControl::getPitch(float*)
+PUBLIC acc81 0 FMOD::ChannelControl::setMute(bool)
+PUBLIC accfd 0 FMOD::ChannelControl::getMute(bool*)
+PUBLIC acd79 0 FMOD::ChannelControl::setReverbProperties(int, float)
+PUBLIC ace31 0 FMOD::ChannelControl::getReverbProperties(int, float*)
+PUBLIC acee9 0 FMOD::ChannelControl::setLowPassGain(float)
+PUBLIC acf65 0 FMOD::ChannelControl::getLowPassGain(float*)
+PUBLIC acfe1 0 FMOD::ChannelControl::setMode(unsigned int)
+PUBLIC ad05d 0 FMOD::ChannelControl::getMode(unsigned int*)
+PUBLIC ad0d9 0 FMOD::ChannelControl::setCallback(FMOD_RESULT (*)(FMOD_CHANNELCONTROL*, FMOD_CHANNELCONTROL_TYPE, FMOD_CHANNELCONTROL_CALLBACK_TYPE, void*, void*))
+PUBLIC ad161 0 FMOD::ChannelControl::isPlaying(bool*)
+PUBLIC ad1e1 0 FMOD::ChannelControl::setPan(float)
+PUBLIC ad25d 0 FMOD::ChannelControl::setMixLevelsOutput(float, float, float, float, float, float, float, float)
+PUBLIC ad3f1 0 FMOD::ChannelControl::setMixLevelsInput(float*, int)
+PUBLIC ad4a9 0 FMOD::ChannelControl::setMixMatrix(float*, int, int, int)
+PUBLIC ad539 0 FMOD::ChannelControl::getMixMatrix(float*, int*, int*, int)
+PUBLIC ad5c5 0 FMOD::ChannelControl::getDSPClock(unsigned long long*, unsigned long long*)
+PUBLIC ad6ad 0 FMOD::ChannelControl::setDelay(unsigned long long, unsigned long long, bool)
+PUBLIC ad7ad 0 FMOD::ChannelControl::getDelay(unsigned long long*, unsigned long long*, bool*)
+PUBLIC ad8b5 0 FMOD::ChannelControl::addFadePoint(unsigned long long, float)
+PUBLIC ad989 0 FMOD::ChannelControl::setFadePointRamp(unsigned long long, float)
+PUBLIC ada25 0 FMOD::ChannelControl::removeFadePoints(unsigned long long, unsigned long long)
+PUBLIC adafd 0 FMOD::ChannelControl::getFadePoints(unsigned int*, unsigned long long*, float*)
+PUBLIC adbfd 0 FMOD::ChannelControl::getDSP(int, FMOD::DSP**)
+PUBLIC adcb9 0 FMOD::ChannelControl::addDSP(int, FMOD::DSP*)
+PUBLIC add75 0 FMOD::ChannelControl::removeDSP(FMOD::DSP*)
+PUBLIC addf1 0 FMOD::ChannelControl::getNumDSPs(int*)
+PUBLIC ade6d 0 FMOD::ChannelControl::setDSPIndex(FMOD::DSP*, int)
+PUBLIC adf29 0 FMOD::ChannelControl::getDSPIndex(FMOD::DSP*, int*)
+PUBLIC adfe5 0 FMOD::ChannelControl::set3DAttributes(FMOD_VECTOR const*, FMOD_VECTOR const*)
+PUBLIC ae0a1 0 FMOD::ChannelControl::get3DAttributes(FMOD_VECTOR*, FMOD_VECTOR*)
+PUBLIC ae15d 0 FMOD::ChannelControl::set3DMinMaxDistance(float, float)
+PUBLIC ae219 0 FMOD::ChannelControl::get3DMinMaxDistance(float*, float*)
+PUBLIC ae2d5 0 FMOD::ChannelControl::set3DConeSettings(float, float, float)
+PUBLIC ae3c5 0 FMOD::ChannelControl::get3DConeSettings(float*, float*, float*)
+PUBLIC ae4a5 0 FMOD::ChannelControl::set3DConeOrientation(FMOD_VECTOR*)
+PUBLIC ae521 0 FMOD::ChannelControl::get3DConeOrientation(FMOD_VECTOR*)
+PUBLIC ae59d 0 FMOD::ChannelControl::set3DCustomRolloff(FMOD_VECTOR*, int)
+PUBLIC ae659 0 FMOD::ChannelControl::get3DCustomRolloff(FMOD_VECTOR**, int*)
+PUBLIC ae715 0 FMOD::ChannelControl::set3DOcclusion(float, float)
+PUBLIC ae799 0 FMOD::ChannelControl::get3DOcclusion(float*, float*)
+PUBLIC ae81d 0 FMOD::ChannelControl::set3DSpread(float)
+PUBLIC ae899 0 FMOD::ChannelControl::get3DSpread(float*)
+PUBLIC ae915 0 FMOD::ChannelControl::set3DLevel(float)
+PUBLIC ae991 0 FMOD::ChannelControl::get3DLevel(float*)
+PUBLIC aea0d 0 FMOD::ChannelControl::set3DDopplerLevel(float)
+PUBLIC aea89 0 FMOD::ChannelControl::get3DDopplerLevel(float*)
+PUBLIC aeb05 0 FMOD::ChannelControl::set3DDistanceFilter(bool, float, float)
+PUBLIC aebed 0 FMOD::ChannelControl::get3DDistanceFilter(bool*, float*, float*)
+PUBLIC aecc5 0 FMOD::ChannelControl::setUserData(void*)
+PUBLIC aed3d 0 FMOD::ChannelControl::getUserData(void**)
+PUBLIC aedb5 0 FMOD::ChannelGroup::release()
+PUBLIC aee19 0 FMOD::ChannelGroup::addGroup(FMOD::ChannelGroup*, bool, FMOD::DSPConnection**)
+PUBLIC aeed1 0 FMOD::ChannelGroup::getNumGroups(int*)
+PUBLIC aef49 0 FMOD::ChannelGroup::getGroup(int, FMOD::ChannelGroup**)
+PUBLIC af001 0 FMOD::ChannelGroup::getParentGroup(FMOD::ChannelGroup**)
+PUBLIC af079 0 FMOD::ChannelGroup::getName(char*, int)
+PUBLIC af131 0 FMOD::ChannelGroup::getNumChannels(int*)
+PUBLIC af1a9 0 FMOD::ChannelGroup::getChannel(int, FMOD::Channel**)
+PUBLIC af909 0 FMOD::DSP::release()
+PUBLIC af96d 0 FMOD::DSP::getSystemObject(FMOD::System**)
+PUBLIC af9d9 0 FMOD::DSP::addInput(FMOD::DSP*, FMOD::DSPConnection**, FMOD_DSPCONNECTION_TYPE)
+PUBLIC afab1 0 FMOD::DSP::disconnectFrom(FMOD::DSP*, FMOD::DSPConnection*)
+PUBLIC afb69 0 FMOD::DSP::disconnectAll(bool, bool)
+PUBLIC afc21 0 FMOD::DSP::getNumInputs(int*)
+PUBLIC afca1 0 FMOD::DSP::getNumOutputs(int*)
+PUBLIC afd19 0 FMOD::DSP::getInput(int, FMOD::DSP**, FMOD::DSPConnection**)
+PUBLIC afded 0 FMOD::DSP::getOutput(int, FMOD::DSP**, FMOD::DSPConnection**)
+PUBLIC afe6d 0 FMOD::DSP::setActive(bool)
+PUBLIC afee9 0 FMOD::DSP::getActive(bool*)
+PUBLIC aff69 0 FMOD::DSP::setBypass(bool)
+PUBLIC affe1 0 FMOD::DSP::getBypass(bool*)
+PUBLIC b0061 0 FMOD::DSP::setWetDryMix(float, float, float)
+PUBLIC b00f1 0 FMOD::DSP::getWetDryMix(float*, float*, float*)
+PUBLIC b0171 0 FMOD::DSP::setChannelFormat(unsigned int, int, FMOD_SPEAKERMODE)
+PUBLIC b0245 0 FMOD::DSP::getChannelFormat(unsigned int*, int*, FMOD_SPEAKERMODE*)
+PUBLIC b0319 0 FMOD::DSP::getOutputChannelFormat(unsigned int, int, FMOD_SPEAKERMODE, unsigned int*, int*, FMOD_SPEAKERMODE*)
+PUBLIC b0449 0 FMOD::DSP::reset()
+PUBLIC b04ad 0 FMOD::DSP::setCallback(FMOD_RESULT (*)(FMOD_DSP*, FMOD_DSP_CALLBACK_TYPE, void*))
+PUBLIC b0531 0 FMOD::DSP::setParameterFloat(int, float)
+PUBLIC b05a5 0 FMOD::DSP::setParameterInt(int, int)
+PUBLIC b0651 0 FMOD::DSP::setParameterBool(int, bool)
+PUBLIC b06fd 0 FMOD::DSP::setParameterData(int, void*, unsigned int)
+PUBLIC b07c5 0 FMOD::DSP::getParameterFloat(int, float*, char*, int)
+PUBLIC b08b5 0 FMOD::DSP::getParameterInt(int, int*, char*, int)
+PUBLIC b09a5 0 FMOD::DSP::getParameterBool(int, bool*, char*, int)
+PUBLIC b0a95 0 FMOD::DSP::getParameterData(int, void**, unsigned int*, char*, int)
+PUBLIC b0b9d 0 FMOD::DSP::getNumParameters(int*)
+PUBLIC b0c09 0 FMOD::DSP::getParameterInfo(int, FMOD_DSP_PARAMETER_DESC**)
+PUBLIC b0cb5 0 FMOD::DSP::getDataParameterIndex(int, int*)
+PUBLIC b0d61 0 FMOD::DSP::showConfigDialog(void*, bool)
+PUBLIC b0e19 0 FMOD::DSP::getInfo(char*, unsigned int*, int*, int*, int*)
+PUBLIC b0f29 0 FMOD::DSP::getType(FMOD_DSP_TYPE*)
+PUBLIC b0fa1 0 FMOD::DSP::getIdle(bool*)
+PUBLIC b1019 0 FMOD::DSP::setUserData(void*)
+PUBLIC b1085 0 FMOD::DSP::getUserData(void**)
+PUBLIC b10f1 0 FMOD::DSP::setMeteringEnabled(bool, bool)
+PUBLIC b1171 0 FMOD::DSP::getMeteringEnabled(bool*, bool*)
+PUBLIC b1229 0 FMOD::DSP::getMeteringInfo(FMOD_DSP_METERING_INFO*, FMOD_DSP_METERING_INFO*)
+PUBLIC b12e1 0 FMOD::DSP::getCPUUsage(unsigned int*, unsigned int*)
+PUBLIC b1399 0 FMOD::Geometry::release()
+PUBLIC b13af 0 FMOD::Geometry::addPolygon(float, float, bool, int, FMOD_VECTOR const*, int*)
+PUBLIC b13e7 0 FMOD::Geometry::getNumPolygons(int*)
+PUBLIC b1401 0 FMOD::Geometry::getMaxPolygons(int*, int*)
+PUBLIC b141f 0 FMOD::Geometry::getPolygonNumVertices(int, int*)
+PUBLIC b143d 0 FMOD::Geometry::setPolygonVertex(int, int, FMOD_VECTOR const*)
+PUBLIC b1469 0 FMOD::Geometry::getPolygonVertex(int, int, FMOD_VECTOR*)
+PUBLIC b1495 0 FMOD::Geometry::setPolygonAttributes(int, float, float, bool)
+PUBLIC b14c5 0 FMOD::Geometry::getPolygonAttributes(int, float*, float*, bool*)
+PUBLIC b14f5 0 FMOD::Geometry::setActive(bool)
+PUBLIC b150f 0 FMOD::Geometry::getActive(bool*)
+PUBLIC b1529 0 FMOD::Geometry::setRotation(FMOD_VECTOR const*, FMOD_VECTOR const*)
+PUBLIC b1547 0 FMOD::Geometry::getRotation(FMOD_VECTOR*, FMOD_VECTOR*)
+PUBLIC b1565 0 FMOD::Geometry::setPosition(FMOD_VECTOR const*)
+PUBLIC b157f 0 FMOD::Geometry::getPosition(FMOD_VECTOR*)
+PUBLIC b1599 0 FMOD::Geometry::setScale(FMOD_VECTOR const*)
+PUBLIC b15b3 0 FMOD::Geometry::getScale(FMOD_VECTOR*)
+PUBLIC b15cd 0 FMOD::Geometry::save(void*, int*)
+PUBLIC b15eb 0 FMOD::Geometry::setUserData(void*)
+PUBLIC b1605 0 FMOD::Geometry::getUserData(void**)
+PUBLIC b328d 0 FMOD::Reverb3D::release()
+PUBLIC b32e5 0 FMOD::Reverb3D::set3DAttributes(FMOD_VECTOR const*, float, float)
+PUBLIC b334d 0 FMOD::Reverb3D::get3DAttributes(FMOD_VECTOR*, float*, float*)
+PUBLIC b3415 0 FMOD::Reverb3D::setProperties(FMOD_REVERB_PROPERTIES const*)
+PUBLIC b3481 0 FMOD::Reverb3D::getProperties(FMOD_REVERB_PROPERTIES*)
+PUBLIC b34ed 0 FMOD::Reverb3D::setActive(bool)
+PUBLIC b3559 0 FMOD::Reverb3D::getActive(bool*)
+PUBLIC b35c5 0 FMOD::Reverb3D::setUserData(void*)
+PUBLIC b3631 0 FMOD::Reverb3D::getUserData(void**)
+PUBLIC b369d 0 FMOD::Sound::release()
+PUBLIC b3719 0 FMOD::Sound::getSystemObject(FMOD::System**)
+PUBLIC b3789 0 FMOD::Sound::lock(unsigned int, unsigned int, void**, void**, unsigned int*, unsigned int*)
+PUBLIC b38d5 0 FMOD::Sound::unlock(void*, void*, unsigned int, unsigned int)
+PUBLIC b39ed 0 FMOD::Sound::setDefaults(float, int)
+PUBLIC b3abd 0 FMOD::Sound::getDefaults(float*, int*)
+PUBLIC b3b85 0 FMOD::Sound::set3DMinMaxDistance(float, float)
+PUBLIC b3c1d 0 FMOD::Sound::get3DMinMaxDistance(float*, float*)
+PUBLIC b3cb9 0 FMOD::Sound::set3DConeSettings(float, float, float)
+PUBLIC b3d75 0 FMOD::Sound::get3DConeSettings(float*, float*, float*)
+PUBLIC b3e15 0 FMOD::Sound::set3DCustomRolloff(FMOD_VECTOR*, int)
+PUBLIC b3ebd 0 FMOD::Sound::get3DCustomRolloff(FMOD_VECTOR**, int*)
+PUBLIC b3f59 0 FMOD::Sound::getSubSound(int, FMOD::Sound**)
+PUBLIC b4035 0 FMOD::Sound::getSubSoundParent(FMOD::Sound**)
+PUBLIC b4055 0 FMOD::Sound::getName(char*, int)
+PUBLIC b40ed 0 FMOD::Sound::getLength(unsigned int*, unsigned int)
+PUBLIC b4185 0 FMOD::Sound::getFormat(FMOD_SOUND_TYPE*, FMOD_SOUND_FORMAT*, int*, int*)
+PUBLIC b4291 0 FMOD::Sound::getNumSubSounds(int*)
+PUBLIC b4319 0 FMOD::Sound::getNumTags(int*, int*)
+PUBLIC b43e9 0 FMOD::Sound::getTag(char const*, int, FMOD_TAG*)
+PUBLIC b44e5 0 FMOD::Sound::getOpenState(FMOD_OPENSTATE*, unsigned int*, bool*, bool*)
+PUBLIC b45e1 0 FMOD::Sound::readData(void*, unsigned int, unsigned int*)
+PUBLIC b46d5 0 FMOD::Sound::seekData(unsigned int)
+PUBLIC b4769 0 FMOD::Sound::setSoundGroup(FMOD::SoundGroup*)
+PUBLIC b480d 0 FMOD::Sound::getSoundGroup(FMOD::SoundGroup**)
+PUBLIC b4895 0 FMOD::Sound::getNumSyncPoints(int*)
+PUBLIC b4929 0 FMOD::Sound::getSyncPoint(int, FMOD_SYNCPOINT**)
+PUBLIC b49f9 0 FMOD::Sound::getSyncPointInfo(FMOD_SYNCPOINT*, char*, int, unsigned int*, unsigned int)
+PUBLIC b4b29 0 FMOD::Sound::addSyncPoint(unsigned int, unsigned int, char const*, FMOD_SYNCPOINT**)
+PUBLIC b4c4d 0 FMOD::Sound::deleteSyncPoint(FMOD_SYNCPOINT*)
+PUBLIC b4ce1 0 FMOD::Sound::setMode(unsigned int)
+PUBLIC b4d75 0 FMOD::Sound::getMode(unsigned int*)
+PUBLIC b4dfd 0 FMOD::Sound::setLoopCount(int)
+PUBLIC b4e91 0 FMOD::Sound::getLoopCount(int*)
+PUBLIC b4f19 0 FMOD::Sound::setLoopPoints(unsigned int, unsigned int, unsigned int, unsigned int)
+PUBLIC b4fc5 0 FMOD::Sound::getLoopPoints(unsigned int*, unsigned int, unsigned int*, unsigned int)
+PUBLIC b5071 0 FMOD::Sound::getMusicNumChannels(int*)
+PUBLIC b5115 0 FMOD::Sound::setMusicChannelVolume(int, float)
+PUBLIC b51bd 0 FMOD::Sound::getMusicChannelVolume(int, float*)
+PUBLIC b5265 0 FMOD::Sound::setMusicSpeed(float)
+PUBLIC b5309 0 FMOD::Sound::getMusicSpeed(float*)
+PUBLIC b53ad 0 FMOD::Sound::setUserData(void*)
+PUBLIC b541d 0 FMOD::Sound::getUserData(void**)
+PUBLIC b548d 0 FMOD::SoundGroup::release()
+PUBLIC b54f1 0 FMOD::SoundGroup::getSystemObject(FMOD::System**)
+PUBLIC b5569 0 FMOD::SoundGroup::setMaxAudible(int)
+PUBLIC b55e1 0 FMOD::SoundGroup::getMaxAudible(int*)
+PUBLIC b5659 0 FMOD::SoundGroup::setMaxAudibleBehavior(FMOD_SOUNDGROUP_BEHAVIOR)
+PUBLIC b56d1 0 FMOD::SoundGroup::getMaxAudibleBehavior(FMOD_SOUNDGROUP_BEHAVIOR*)
+PUBLIC b5749 0 FMOD::SoundGroup::setMuteFadeSpeed(float)
+PUBLIC b57c1 0 FMOD::SoundGroup::getMuteFadeSpeed(float*)
+PUBLIC b5839 0 FMOD::SoundGroup::setVolume(float)
+PUBLIC b58b1 0 FMOD::SoundGroup::getVolume(float*)
+PUBLIC b5929 0 FMOD::SoundGroup::stop()
+PUBLIC b598d 0 FMOD::SoundGroup::getName(char*, int)
+PUBLIC b5a0d 0 FMOD::SoundGroup::getNumSounds(int*)
+PUBLIC b5a85 0 FMOD::SoundGroup::getSound(int, FMOD::Sound**)
+PUBLIC b5b05 0 FMOD::SoundGroup::getNumPlaying(int*)
+PUBLIC b5b7d 0 FMOD::SoundGroup::setUserData(void*)
+PUBLIC b5bf5 0 FMOD::SoundGroup::getUserData(void**)
+PUBLIC b5c6d 0 FMOD::System::release()
+PUBLIC b5cd5 0 FMOD::System::setOutput(FMOD_OUTPUTTYPE)
+PUBLIC b5d4d 0 FMOD::System::getOutput(FMOD_OUTPUTTYPE*)
+PUBLIC b5dc5 0 FMOD::System::getNumDrivers(int*)
+PUBLIC b5e3d 0 FMOD::System::getDriverInfo(int, char*, int, FMOD_GUID*, int*, FMOD_SPEAKERMODE*, int*)
+PUBLIC b5f8d 0 FMOD::System::setDriver(int)
+PUBLIC b6005 0 FMOD::System::getDriver(int*)
+PUBLIC b607d 0 FMOD::System::setSoftwareChannels(int)
+PUBLIC b60f5 0 FMOD::System::getSoftwareChannels(int*)
+PUBLIC b616d 0 FMOD::System::setSoftwareFormat(int, FMOD_SPEAKERMODE, int)
+PUBLIC b6249 0 FMOD::System::getSoftwareFormat(int*, FMOD_SPEAKERMODE*, int*)
+PUBLIC b6341 0 FMOD::System::setDSPBufferSize(unsigned int, int)
+PUBLIC b63f9 0 FMOD::System::getDSPBufferSize(unsigned int*, int*)
+PUBLIC b64b1 0 FMOD::System::setFileSystem(FMOD_RESULT (*)(char const*, unsigned int*, void**, void*), FMOD_RESULT (*)(void*, void*), FMOD_RESULT (*)(void*, void*, unsigned int, unsigned int*, void*), FMOD_RESULT (*)(void*, unsigned int, void*), FMOD_RESULT (*)(FMOD_ASYNCREADINFO*, void*), FMOD_RESULT (*)(FMOD_ASYNCREADINFO*, void*), int)
+PUBLIC b6631 0 FMOD::System::attachFileSystem(FMOD_RESULT (*)(char const*, unsigned int*, void**, void*), FMOD_RESULT (*)(void*, void*), FMOD_RESULT (*)(void*, void*, unsigned int, unsigned int*, void*), FMOD_RESULT (*)(void*, unsigned int, void*))
+PUBLIC b6759 0 FMOD::System::setAdvancedSettings(FMOD_ADVANCEDSETTINGS*)
+PUBLIC b67d1 0 FMOD::System::getAdvancedSettings(FMOD_ADVANCEDSETTINGS*)
+PUBLIC b6849 0 FMOD::System::setCallback(FMOD_RESULT (*)(FMOD_SYSTEM*, unsigned int, void*, void*, void*), unsigned int)
+PUBLIC b6909 0 FMOD::System::setPluginPath(char const*)
+PUBLIC b6981 0 FMOD::System::loadPlugin(char const*, unsigned int*, unsigned int)
+PUBLIC b6a5d 0 FMOD::System::unloadPlugin(unsigned int)
+PUBLIC b6ad5 0 FMOD::System::getNumNestedPlugins(unsigned int, int*)
+PUBLIC b6b8d 0 FMOD::System::getNestedPlugin(unsigned int, int, unsigned int*)
+PUBLIC b6c61 0 FMOD::System::getNumPlugins(FMOD_PLUGINTYPE, int*)
+PUBLIC b6d19 0 FMOD::System::getPluginHandle(FMOD_PLUGINTYPE, int, unsigned int*)
+PUBLIC b6ded 0 FMOD::System::getPluginInfo(unsigned int, FMOD_PLUGINTYPE*, char*, int, unsigned int*)
+PUBLIC b6f01 0 FMOD::System::setOutputByPlugin(unsigned int)
+PUBLIC b6f79 0 FMOD::System::getOutputByPlugin(unsigned int*)
+PUBLIC b6ff1 0 FMOD::System::createDSPByPlugin(unsigned int, FMOD::DSP**)
+PUBLIC b70a9 0 FMOD::System::getDSPInfoByPlugin(unsigned int, FMOD_DSP_DESCRIPTION const**)
+PUBLIC b7161 0 FMOD::System::registerCodec(FMOD_CODEC_DESCRIPTION*, unsigned int*, unsigned int)
+PUBLIC b7235 0 FMOD::System::registerDSP(FMOD_DSP_DESCRIPTION const*, unsigned int*)
+PUBLIC b72ed 0 FMOD::System::registerOutput(FMOD_OUTPUT_DESCRIPTION const*, unsigned int*)
+PUBLIC b73a5 0 FMOD::System::init(int, unsigned int, void*)
+PUBLIC b746d 0 FMOD::System::close()
+PUBLIC b74d5 0 FMOD::System::update()
+PUBLIC b7539 0 FMOD::System::setSpeakerPosition(FMOD_SPEAKER, float, float, bool)
+PUBLIC b7645 0 FMOD::System::getSpeakerPosition(FMOD_SPEAKER, float*, float*, bool*)
+PUBLIC b7741 0 FMOD::System::setStreamBufferSize(unsigned int, unsigned int)
+PUBLIC b77c1 0 FMOD::System::getStreamBufferSize(unsigned int*, unsigned int*)
+PUBLIC b7841 0 FMOD::System::set3DSettings(float, float, float)
+PUBLIC b78d1 0 FMOD::System::get3DSettings(float*, float*, float*)
+PUBLIC b7951 0 FMOD::System::set3DNumListeners(int)
+PUBLIC b79c9 0 FMOD::System::get3DNumListeners(int*)
+PUBLIC b7a41 0 FMOD::System::set3DListenerAttributes(int, FMOD_VECTOR const*, FMOD_VECTOR const*, FMOD_VECTOR const*, FMOD_VECTOR const*)
+PUBLIC b7b5d 0 FMOD::System::get3DListenerAttributes(int, FMOD_VECTOR*, FMOD_VECTOR*, FMOD_VECTOR*, FMOD_VECTOR*)
+PUBLIC b7c79 0 FMOD::System::set3DRolloffCallback(float (*)(FMOD_CHANNELCONTROL*, float))
+PUBLIC b7cfd 0 FMOD::System::mixerSuspend()
+PUBLIC b7d61 0 FMOD::System::mixerResume()
+PUBLIC b7dc5 0 FMOD::System::getSpeakerModeChannels(FMOD_SPEAKERMODE, int*)
+PUBLIC b7e39 0 FMOD::System::getDefaultMixMatrix(FMOD_SPEAKERMODE, FMOD_SPEAKERMODE, float*, int)
+PUBLIC b7eb5 0 FMOD::System::getVersion(unsigned int*)
+PUBLIC b7f2d 0 FMOD::System::getOutputHandle(void**)
+PUBLIC b7fa5 0 FMOD::System::getChannelsPlaying(int*, int*)
+PUBLIC b8019 0 FMOD::System::getCPUUsage(FMOD_CPU_USAGE*)
+PUBLIC b8085 0 FMOD::System::getFileUsage(long long*, long long*, long long*)
+PUBLIC b8155 0 FMOD::System::createSound(char const*, unsigned int, FMOD_CREATESOUNDEXINFO*, FMOD::Sound**)
+PUBLIC b8245 0 FMOD::System::createStream(char const*, unsigned int, FMOD_CREATESOUNDEXINFO*, FMOD::Sound**)
+PUBLIC b82c5 0 FMOD::System::createDSP(FMOD_DSP_DESCRIPTION const*, FMOD::DSP**)
+PUBLIC b837d 0 FMOD::System::createDSPByType(FMOD_DSP_TYPE, FMOD::DSP**)
+PUBLIC b8435 0 FMOD::System::createChannelGroup(char const*, FMOD::ChannelGroup**)
+PUBLIC b84ed 0 FMOD::System::createSoundGroup(char const*, FMOD::SoundGroup**)
+PUBLIC b85a5 0 FMOD::System::createReverb3D(FMOD::Reverb3D**)
+PUBLIC b861d 0 FMOD::System::playSound(FMOD::Sound*, FMOD::ChannelGroup*, bool, FMOD::Channel**)
+PUBLIC b8721 0 FMOD::System::playDSP(FMOD::DSP*, FMOD::ChannelGroup*, bool, FMOD::Channel**)
+PUBLIC b8825 0 FMOD::System::getChannel(int, FMOD::Channel**)
+PUBLIC b88a5 0 FMOD::System::getDSPInfoByType(FMOD_DSP_TYPE, FMOD_DSP_DESCRIPTION const**)
+PUBLIC b895d 0 FMOD::System::getMasterChannelGroup(FMOD::ChannelGroup**)
+PUBLIC b89c9 0 FMOD::System::getMasterSoundGroup(FMOD::SoundGroup**)
+PUBLIC b8a41 0 FMOD::System::attachChannelGroupToPort(FMOD_PORT_TYPE, unsigned long long, FMOD::ChannelGroup*, bool)
+PUBLIC b8b21 0 FMOD::System::detachChannelGroupFromPort(FMOD::ChannelGroup*)
+PUBLIC b8b99 0 FMOD::System::setReverbProperties(int, FMOD_REVERB_PROPERTIES const*)
+PUBLIC b8c51 0 FMOD::System::getReverbProperties(int, FMOD_REVERB_PROPERTIES*)
+PUBLIC b8d09 0 FMOD::System::lockDSP()
+PUBLIC b8d61 0 FMOD::System::unlockDSP()
+PUBLIC b8db9 0 FMOD::System::getRecordNumDrivers(int*, int*)
+PUBLIC b8e39 0 FMOD::System::getRecordDriverInfo(int, char*, int, FMOD_GUID*, int*, FMOD_SPEAKERMODE*, int*, unsigned int*)
+PUBLIC b8fa5 0 FMOD::System::getRecordPosition(int, unsigned int*)
+PUBLIC b905d 0 FMOD::System::recordStart(int, FMOD::Sound*, bool)
+PUBLIC b9131 0 FMOD::System::recordStop(int)
+PUBLIC b91a9 0 FMOD::System::isRecording(int, bool*)
+PUBLIC b9261 0 FMOD::System::createGeometry(int, int, FMOD::Geometry**)
+PUBLIC b9335 0 FMOD::System::setGeometrySettings(float)
+PUBLIC b93ad 0 FMOD::System::getGeometrySettings(float*)
+PUBLIC b9425 0 FMOD::System::loadGeometry(void const*, int, FMOD::Geometry**)
+PUBLIC b94f9 0 FMOD::System::getGeometryOcclusion(FMOD_VECTOR const*, FMOD_VECTOR const*, float*, float*)
+PUBLIC b95f5 0 FMOD::System::setNetworkProxy(char const*)
+PUBLIC b966d 0 FMOD::System::getNetworkProxy(char*, int)
+PUBLIC b96ed 0 FMOD::System::setNetworkTimeout(int)
+PUBLIC b9765 0 FMOD::System::getNetworkTimeout(int*)
+PUBLIC b97dd 0 FMOD::System::setUserData(void*)
+PUBLIC b9849 0 FMOD::System::getUserData(void**)
+PUBLIC b98b5 0 FMOD_Debug_Initialize
+PUBLIC b9911 0 FMOD_File_SetDiskBusy
+PUBLIC b9945 0 FMOD_File_GetDiskBusy
+PUBLIC bce83 0 FMOD_OS_Debug_Output
+PUBLIC bd211 0 FMOD_Thread_SetAttributes
+PUBLIC be961 0 JNI_OnLoad
+PUBLIC bea81 0 FMOD_OS_File_Open
+PUBLIC bebbd 0 FMOD_OS_File_Close
+PUBLIC bebe1 0 FMOD_OS_File_Read
+PUBLIC bebf1 0 FMOD_OS_File_Write
+PUBLIC bec01 0 FMOD_OS_File_Seek
+PUBLIC bec81 0 FMOD_OS_Time_GetUs
+PUBLIC bed45 0 FMOD_OS_Time_Sleep
+PUBLIC bee59 0 FMOD_OS_Thread_Create
+PUBLIC bef45 0 FMOD_OS_Thread_Destroy
+PUBLIC bef49 0 FMOD_OS_CriticalSection_Create
+PUBLIC befc1 0 FMOD_OS_CriticalSection_Free
+PUBLIC bf005 0 FMOD_OS_CriticalSection_Enter
+PUBLIC bf015 0 FMOD_OS_CriticalSection_Leave
+PUBLIC bf025 0 FMOD_OS_CriticalSection_TryEnter
+PUBLIC bf045 0 FMOD_OS_CriticalSection_IsLocked
+PUBLIC bf2b9 0 Java_org_fmod_FMOD_OutputAAudioHeadphonesChanged
+PUBLIC c123d 0 Java_org_fmod_MediaCodec_fmodReadAt
+PUBLIC c129f 0 Java_org_fmod_MediaCodec_fmodGetSize
+PUBLIC d8410 0 PLII_Encode_Init
+PUBLIC d8a5c 0 DSP_Saturate
+PUBLIC d8aa0 0 Pole_Zero_Filter
+PUBLIC d8b60 0 Pole_Zero_Filter_Phase
+PUBLIC d8c2c 0 Biquad_Filter
+PUBLIC d8d38 0 PLII_Encode
+PUBLIC m d9b00 0 __udivsi3
+PUBLIC d9ba8 0 __aeabi_uidivmod
+PUBLIC m d9bc8 0 __divsi3
+PUBLIC d9ca4 0 __aeabi_idivmod
+PUBLIC m d9cc4 0 __ashrdi3
+PUBLIC d9ce0 0 __aeabi_drsub
+PUBLIC m d9ce8 0 __subdf3
+PUBLIC m d9f98 0 __aeabi_ui2d
+PUBLIC m d9fbc 0 __aeabi_i2d
+PUBLIC m d9fe4 0 __aeabi_f2d
+PUBLIC m da024 0 __floatundidf
+PUBLIC da038 0 __floatdidf
+PUBLIC da098 0 __aeabi_frsub
+PUBLIC m da234 0 __aeabi_ui2f
+PUBLIC da23c 0 __aeabi_i2f
+PUBLIC m da25c 0 __aeabi_ul2f
+PUBLIC da26c 0 __aeabi_l2f
+PUBLIC da2e8 0 __aeabi_uldivmod
+PUBLIC m da324 0 __aeabi_idiv0
+PUBLIC da334 0 __powisf2
+PUBLIC m da3a8 0 __mulsf3
+PUBLIC m da540 0 __divsf3
+PUBLIC m da6a0 0 __fixsfdi
+PUBLIC m da6d8 0 __gtsf2
+PUBLIC da74c 0 __aeabi_cfrcmple
+PUBLIC da770 0 __aeabi_fcmpeq
+PUBLIC da784 0 __aeabi_fcmplt
+PUBLIC da798 0 __aeabi_fcmple
+PUBLIC da7ac 0 __aeabi_fcmpge
+PUBLIC da7c0 0 __aeabi_fcmpgt
+PUBLIC m da7d4 0 __fixdfdi
+PUBLIC m da818 0 __gtdf2
+PUBLIC da8b0 0 __aeabi_cdrcmple
+PUBLIC m da8cc 0 __aeabi_cdcmple
+PUBLIC da8e0 0 __aeabi_dcmpeq
+PUBLIC da8f4 0 __aeabi_dcmplt
+PUBLIC da908 0 __aeabi_dcmple
+PUBLIC da91c 0 __aeabi_dcmpge
+PUBLIC da930 0 __aeabi_dcmpgt
+PUBLIC m da944 0 __aeabi_f2ulz
+PUBLIC m da9b0 0 __muldf3
+PUBLIC m dac1c 0 __divdf3
+PUBLIC m dae20 0 __fixunsdfsi
+PUBLIC m dae74 0 __aeabi_d2ulz
+PUBLIC daedc 0 __gnu_ldivmod_helper
+PUBLIC daf18 0 __gnu_uldivmod_helper
+PUBLIC daf54 0 __divdi3
+PUBLIC m db0d0 0 __aeabi_llsl
+PUBLIC m db0ec 0 __lshrdi3
+PUBLIC db108 0 __udivdi3
+PUBLIC de220 0 <.plt ELF section in libfmod.so>
