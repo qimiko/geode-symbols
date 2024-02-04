@@ -1,12 +1,10 @@
 # Geode Symbols
 
-What did you expect? 
-
-The symbol server can currently be accessed at [symbols.xyze.dev](https://symbols.xyze.dev/).
+The symbol server for Geode Android binaries can currently be accessed at [symbols.xyze.dev](https://symbols.xyze.dev/).
 
 The recommended usage is to point a tool like [minidump-stackwalk](https://crates.io/crates/minidump-stackwalk) at it. However, cloning the repository locally works as well. Just make sure to create a shallow clone!
 
-## Adding Symbols
+## Adding Other Symbols
 
 1. Find the binary you want to dump the symbols of.
 
