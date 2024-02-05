@@ -1,0 +1,315 @@
+MODULE Linux arm 081537D3E87E0CC88E43F79222B55BBA0 oatmealine.nlw_integration.android32.so
+INFO CODE_ID D33715087EE8C80C8E43F79222B55BBAB34630C2
+INFO GENERATOR mozilla/dump_syms 2.2.2
+PUBLIC e870 0 __on_dlclose
+PUBLIC e880 0 __emutls_unregister_key
+PUBLIC e884 0 __on_dlclose_late
+PUBLIC e888 0 __atexit_handler_wrapper
+PUBLIC e894 0 atexit
+PUBLIC e8b4 0 pthread_atfork
+PUBLIC e8c5 0 __cxx_global_var_init
+PUBLIC e911 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<NLWInfoLayer, LevelInfoLayer> >::~ModifyBase()
+PUBLIC e931 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<NLWInfoLayer, LevelInfoLayer> >::ModifyBase()
+PUBLIC ec5d 0 geode::modifier::ModifyDerive<NLWInfoLayer, LevelInfoLayer>::apply()
+PUBLIC eead 0 std::__ndk1::shared_ptr<geode::Hook>::~shared_ptr[abi:v170000]()
+PUBLIC eee7 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::~vector[abi:v170000]()
+PUBLIC ef25 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<NLWInfoLayer, LevelInfoLayer> >::apply()
+PUBLIC ef27 0 __clang_call_terminate
+PUBLIC ef35 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__throw_length_error[abi:v170000]() const
+PUBLIC ef45 0 std::__ndk1::__throw_length_error[abi:v170000](char const*)
+PUBLIC ef7d 0 std::length_error::length_error[abi:v170000](char const*)
+PUBLIC ef95 0 std::__throw_bad_array_new_length([abi:v170000], void)
+PUBLIC efbd 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__push_back_slow_path<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC f181 0 std::__ndk1::__split_buffer<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >&>::~__split_buffer()
+PUBLIC f1bd 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__throw_length_error[abi:v170000]() const
+PUBLIC f1cd 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::find<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC f285 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::erase(std::__ndk1::__tree_const_iterator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*, int>)
+PUBLIC f307 0 std::__ndk1::__tree_remove[abi:v170000]<std::__ndk1::__tree_node_base<void*>*>(std::__ndk1::__tree_node_base<void*>*, std::__ndk1::__tree_node_base<void*>*)
+PUBLIC f5b5 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::destroy(std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*)
+PUBLIC f615 0 geode::Hook::create<void (*)(NLWInfoLayer*)>(void*, void (*)(NLWInfoLayer*), std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, tulip::hook::TulipConvention, tulip::hook::HookMetadata const&)
+PUBLIC f6e1 0 geode::modifier::AsStaticFunction_updateLabelValues<NLWInfoLayer, void (NLWInfoLayer::*)()>::Impl<void (NLWInfoLayer::*)()>::function(NLWInfoLayer*)
+PUBLIC f729 0 std::__ndk1::shared_ptr<tulip::hook::CallingConvention>::~shared_ptr[abi:v170000]()
+PUBLIC f763 0 tulip::hook::HandlerMetadata::~HandlerMetadata()
+PUBLIC f7a9 0 NLWInfoLayer::updateDifficultyFace()
+PUBLIC fb9d 0 NLWInfoLayer::openNLWInfoPane(cocos2d::CCObject*)
+PUBLIC fbc3 0 std::__ndk1::__optional_destruct_base<NLWRating, false>::~__optional_destruct_base[abi:v170000]()
+PUBLIC fc15 0 geode::modifier::FieldIntermediate<NLWInfoLayer, LevelInfoLayer>::operator NLWInfoLayer*()
+PUBLIC fd9d 0 geode::modifier::FieldContainer::getField(unsigned int)
+PUBLIC ff35 0 geode::modifier::FieldContainer::setField(unsigned int, unsigned int, geode::utils::MiniFunction<void (void*)>)
+PUBLIC ffad 0 geode::modifier::FieldIntermediate<NLWInfoLayer, LevelInfoLayer>::fieldDestructor(void*)
+PUBLIC 10061 0 std::__ndk1::vector<void*, std::__ndk1::allocator<void*> >::__throw_length_error[abi:v170000]() const
+PUBLIC 10071 0 std::__ndk1::vector<geode::utils::MiniFunction<void (void*)>, std::__ndk1::allocator<geode::utils::MiniFunction<void (void*)> > >::__push_back_slow_path<geode::utils::MiniFunction<void (void*)> >(geode::utils::MiniFunction<void (void*)>&&)
+PUBLIC 101b9 0 std::__ndk1::__split_buffer<geode::utils::MiniFunction<void (void*)>, std::__ndk1::allocator<geode::utils::MiniFunction<void (void*)> >&>::~__split_buffer()
+PUBLIC 101e9 0 std::__ndk1::vector<geode::utils::MiniFunction<void (void*)>, std::__ndk1::allocator<geode::utils::MiniFunction<void (void*)> > >::__throw_length_error[abi:v170000]() const
+PUBLIC 101f9 0 std::__ndk1::vector<void*, std::__ndk1::allocator<void*> >::__throw_out_of_range[abi:v170000]() const
+PUBLIC 10209 0 std::__ndk1::__throw_out_of_range[abi:v170000](char const*)
+PUBLIC 10241 0 std::out_of_range::out_of_range[abi:v170000](char const*)
+PUBLIC 10259 0 std::__ndk1::vector<geode::utils::MiniFunction<void (void*)>, std::__ndk1::allocator<geode::utils::MiniFunction<void (void*)> > >::__throw_out_of_range[abi:v170000]() const
+PUBLIC 10269 0 NLWInfoLayer::~NLWInfoLayer()
+PUBLIC 103b1 0 cocos2d::CCCopying::copyWithZone(cocos2d::CCZone*)
+PUBLIC 103b5 0 geode::Modify<NLWInfoLayer, LevelInfoLayer>::~Modify()
+PUBLIC 10445 0 geode::Modify<NLWInfoLayer, LevelInfoLayer>::~Modify()
+PUBLIC 104d9 0 {virtual override thunk({offset(-264)}, geode::Modify<NLWInfoLayer, LevelInfoLayer>::~Modify())}
+PUBLIC 1056d 0 {virtual override thunk({offset(-264)}, geode::Modify<NLWInfoLayer, LevelInfoLayer>::~Modify())}
+PUBLIC 10605 0 cocos2d::CCKeyboardDelegate::keyUp(cocos2d::enumKeyCodes)
+PUBLIC 10607 0 cocos2d::CCMouseDelegate::rightKeyDown()
+PUBLIC 10609 0 cocos2d::CCMouseDelegate::rightKeyUp()
+PUBLIC 1060b 0 cocos2d::CCMouseDelegate::scrollWheel(float, float)
+PUBLIC 1060d 0 {virtual override thunk({offset(-264)}, NLWInfoLayer::~NLWInfoLayer())}
+PUBLIC 10615 0 NLWInfoLayer::~NLWInfoLayer()
+PUBLIC 10625 0 {virtual override thunk({offset(-264)}, NLWInfoLayer::~NLWInfoLayer())}
+PUBLIC 10639 0 geode::utils::MiniFunctionStateBase<void, void*>::~MiniFunctionStateBase()
+PUBLIC 1063b 0 geode::utils::MiniFunctionState<void (*)(void*), void, void*>::~MiniFunctionState()
+PUBLIC 1063f 0 geode::utils::MiniFunctionState<void (*)(void*), void, void*>::call(void*) const
+PUBLIC 10645 0 geode::utils::MiniFunctionState<void (*)(void*), void, void*>::clone() const
+PUBLIC 10665 0 fmt::v10::detail::value<fmt::v10::basic_format_context<fmt::v10::appender, char> >::format_custom_arg<gd::string, fmt::v10::formatter<gd::string, char, void> >(void*, fmt::v10::basic_format_parse_context<char>&, fmt::v10::basic_format_context<fmt::v10::appender, char>&)
+PUBLIC 106f5 0 fmt::v10::formatter<fmt::v10::basic_string_view<char>, char, void>::parse<fmt::v10::basic_format_parse_context<char> >(fmt::v10::basic_format_parse_context<char>&)
+PUBLIC 10979 0 fmt::v10::formatter<gd::string, char, void>::format<fmt::v10::basic_format_context<fmt::v10::appender, char> >(gd::string const&, fmt::v10::basic_format_context<fmt::v10::appender, char>&) const
+PUBLIC 10a61 0 fmt::v10::detail::parse_dynamic_spec<char>(char const*, char const*, int&, fmt::v10::detail::arg_ref<char>&, fmt::v10::basic_format_parse_context<char>&)
+PUBLIC 10b71 0 fmt::v10::detail::do_parse_arg_id<char, fmt::v10::detail::dynamic_spec_id_handler<char>&>(char const*, char const*, fmt::v10::detail::dynamic_spec_id_handler<char>&)
+PUBLIC 10c91 0 fmt::v10::detail::handle_dynamic_spec<fmt::v10::detail::width_checker, fmt::v10::basic_format_context<fmt::v10::appender, char> >(int&, fmt::v10::detail::arg_ref<fmt::v10::basic_format_context<fmt::v10::appender, char>::char_type>, fmt::v10::basic_format_context<fmt::v10::appender, char>&)
+PUBLIC 10d4d 0 fmt::v10::detail::handle_dynamic_spec<fmt::v10::detail::precision_checker, fmt::v10::basic_format_context<fmt::v10::appender, char> >(int&, fmt::v10::detail::arg_ref<fmt::v10::basic_format_context<fmt::v10::appender, char>::char_type>, fmt::v10::basic_format_context<fmt::v10::appender, char>&)
+PUBLIC 10e09 0 fmt::v10::detail::get_dynamic_spec<fmt::v10::detail::width_checker, fmt::v10::basic_format_arg<fmt::v10::basic_format_context<fmt::v10::appender, char> >, fmt::v10::detail::error_handler>(fmt::v10::basic_format_arg<fmt::v10::basic_format_context<fmt::v10::appender, char> >, fmt::v10::detail::error_handler)
+PUBLIC 10e69 0 fmt::v10::basic_format_args<fmt::v10::basic_format_context<fmt::v10::appender, char> >::get<char>(fmt::v10::basic_string_view<char>) const
+PUBLIC 10f81 0 fmt::v10::detail::get_dynamic_spec<fmt::v10::detail::precision_checker, fmt::v10::basic_format_arg<fmt::v10::basic_format_context<fmt::v10::appender, char> >, fmt::v10::detail::error_handler>(fmt::v10::basic_format_arg<fmt::v10::basic_format_context<fmt::v10::appender, char> >, fmt::v10::detail::error_handler)
+PUBLIC 10fe1 0 fmt::v10::detail::write<char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)
+PUBLIC 11115 0 fmt::v10::detail::write_escaped_string<char, fmt::v10::detail::counting_iterator>(fmt::v10::detail::counting_iterator, fmt::v10::basic_string_view<char>)
+PUBLIC 113fd 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)1, fmt::v10::appender, char, fmt::v10::detail::write<char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write<char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender&&)#1})
+PUBLIC 11519 0 fmt::v10::detail::write_escaped_cp<fmt::v10::detail::counting_iterator, char>(fmt::v10::detail::counting_iterator, fmt::v10::detail::find_escape_result<char> const&)
+PUBLIC 11631 0 fmt::v10::detail::for_each_codepoint<fmt::v10::detail::compute_width(fmt::v10::basic_string_view<char>)::count_code_points>(fmt::v10::basic_string_view<char>, fmt::v10::detail::compute_width(fmt::v10::basic_string_view<char>)::count_code_points)::{lambda(char const*, char const*)#1}::operator()(char const*, char const*) const
+PUBLIC 11815 0 fmt::v10::detail::fill<fmt::v10::appender, char>(fmt::v10::appender, unsigned int, fmt::v10::detail::fill_t<char> const&)
+PUBLIC 1191d 0 fmt::v10::detail::write_escaped_string<char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>)
+PUBLIC 11cd1 0 fmt::v10::detail::write_escaped_cp<fmt::v10::appender, char>(fmt::v10::appender, fmt::v10::detail::find_escape_result<char> const&)
+PUBLIC 11e0d 0 fmt::v10::detail::write_codepoint<(unsigned int)2, char, fmt::v10::appender>(fmt::v10::appender, char, unsigned int)
+PUBLIC 11ef5 0 fmt::v10::detail::write_codepoint<(unsigned int)4, char, fmt::v10::appender>(fmt::v10::appender, char, unsigned int)
+PUBLIC 11fd9 0 fmt::v10::detail::write_codepoint<(unsigned int)8, char, fmt::v10::appender>(fmt::v10::appender, char, unsigned int)
+PUBLIC 120bd 0 std::__ndk1::__throw_bad_optional_access[abi:v170000]()
+PUBLIC 120f1 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::__find_equal<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::__tree_end_node<std::__ndk1::__tree_node_base<void*>*>*&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC 12195 0 std::__ndk1::__tree_balance_after_insert[abi:v170000]<std::__ndk1::__tree_node_base<void*>*>(std::__ndk1::__tree_node_base<void*>*, std::__ndk1::__tree_node_base<void*>*)
+PUBLIC 122dd 0 std::__ndk1::vector<NLWRating, std::__ndk1::allocator<NLWRating> >::~vector[abi:v170000]()
+PUBLIC 12311 0 ListManager::parseResponse(matjson::Value)
+PUBLIC 12431 0 std::__ndk1::vector<matjson::Value, std::__ndk1::allocator<matjson::Value> >::vector(std::__ndk1::vector<matjson::Value, std::__ndk1::allocator<matjson::Value> > const&)
+PUBLIC 124f1 0 NLWRating::~NLWRating()
+PUBLIC 1253d 0 std::__ndk1::vector<matjson::Value, std::__ndk1::allocator<matjson::Value> >::~vector[abi:v170000]()
+PUBLIC 12569 0 ListManager::init()
+PUBLIC 12675 0 geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)
+PUBLIC 12735 0 ListManager::getRating(GJGameLevel*)
+PUBLIC 12a6d 0 NLWRating::NLWRating(NLWRating const&)
+PUBLIC 12cc9 0 ListManager::getTierColor(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)
+PUBLIC 13015 0 std::__ndk1::operator==[abi:v170000]<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string const*)
+PUBLIC 1306d 0 ListManager::getEnjoymentColor(float)
+PUBLIC 1312d 0 ListManager::getRatingLink(NLWRating)
+PUBLIC 1335d 0 std::__ndk1::__destroy_at[abi:v170000]<NLWRating, 0>(NLWRating*)
+PUBLIC 133ab 0 std::__ndk1::__exception_guard<std::__ndk1::vector<matjson::Value, std::__ndk1::allocator<matjson::Value> >::__destroy_vector>::~__exception_guard[abi:v170000]()
+PUBLIC 133f1 0 std::__ndk1::vector<matjson::Value, std::__ndk1::allocator<matjson::Value> >::__throw_length_error[abi:v170000]() const
+PUBLIC 13401 0 std::__ndk1::vector<NLWRating, std::__ndk1::allocator<NLWRating> >::__push_back_slow_path<NLWRating const&>(NLWRating const&)
+PUBLIC 135cd 0 std::__ndk1::__split_buffer<NLWRating, std::__ndk1::allocator<NLWRating>&>::~__split_buffer()
+PUBLIC 135f9 0 std::__ndk1::vector<NLWRating, std::__ndk1::allocator<NLWRating> >::__throw_length_error[abi:v170000]() const
+PUBLIC 13609 0 geode::utils::MiniFunctionState<geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)::{lambda(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&)#1}, void, geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&>::~MiniFunctionState()
+PUBLIC 1361f 0 geode::utils::MiniFunctionState<geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)::{lambda(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&)#1}, void, geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&>::~MiniFunctionState()
+PUBLIC 1363b 0 geode::utils::MiniFunctionState<geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)::{lambda(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&)#1}, void, geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&>::call(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&) const
+PUBLIC 13641 0 geode::utils::MiniFunctionState<geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)::{lambda(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&)#1}, void, geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&>::clone() const
+PUBLIC 13685 0 geode::utils::web::AsyncWebResult<matjson::Value>::then(geode::utils::MiniFunction<void (matjson::Value)>)::{lambda(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&)#1}::operator()(geode::utils::web::SentAsyncWebRequest&, std::__ndk1::vector<unsigned char, std::__ndk1::allocator<unsigned char> > const&) const
+PUBLIC 137f9 0 geode::Result<matjson::Value, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::unwrap() &
+PUBLIC 138b9 0 cpp::bitwizeshift::result<matjson::Value, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~result()
+PUBLIC 138dd 0 cpp::bitwizeshift::bad_result_access<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~bad_result_access()
+PUBLIC 13905 0 cpp::bitwizeshift::bad_result_access<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~bad_result_access()
+PUBLIC 13931 0 geode::utils::MiniFunctionState<ListManager::init()::$_0, void, matjson::Value>::~MiniFunctionState()
+PUBLIC 13935 0 geode::utils::MiniFunctionState<ListManager::init()::$_0, void, matjson::Value>::call(matjson::Value) const
+PUBLIC 139c5 0 geode::utils::MiniFunctionState<ListManager::init()::$_0, void, matjson::Value>::clone() const
+PUBLIC 139dd 0 geode::utils::MiniFunctionStateBase<void, matjson::Value>::~MiniFunctionStateBase()
+PUBLIC 139df 0 geode::utils::MiniFunctionStateBase<void, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>::~MiniFunctionStateBase()
+PUBLIC 139e1 0 geode::utils::MiniFunctionState<ListManager::init()::$_1, void, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>::~MiniFunctionState()
+PUBLIC 139e5 0 geode::utils::MiniFunctionState<ListManager::init()::$_1, void, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>::call(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&) const
+PUBLIC 13b39 0 geode::utils::MiniFunctionState<ListManager::init()::$_1, void, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>::clone() const
+PUBLIC 13b51 0 _GLOBAL__sub_I_ListManager.cpp
+PUBLIC 13bc5 0 NLWInfoPopupLayer::setup(GJGameLevel*, NLWRating*)
+PUBLIC 14261 0 NLWInfoPopupLayer::onOpen(cocos2d::CCObject*)
+PUBLIC 14341 0 NLWInfoPopupLayer::create(GJGameLevel*, NLWRating*)
+PUBLIC 14441 0 geode::Popup<GJGameLevel*, NLWRating*>::~Popup()
+PUBLIC 1449d 0 NLWInfoPopupLayer::~NLWInfoPopupLayer()
+PUBLIC 144fd 0 geode::Popup<GJGameLevel*, NLWRating*>::registerWithTouchDispatcher()
+PUBLIC 1451d 0 geode::Popup<GJGameLevel*, NLWRating*>::keyDown(cocos2d::enumKeyCodes)
+PUBLIC 14535 0 cocos2d::CCLayerRGBA::setOpacityModifyRGB(bool)
+PUBLIC 14537 0 cocos2d::CCLayerRGBA::isOpacityModifyRGB()
+PUBLIC 1453b 0 geode::Popup<GJGameLevel*, NLWRating*>::onClose(cocos2d::CCObject*)
+PUBLIC 1455d 0 {virtual override thunk({offset(-264)}, NLWInfoPopupLayer::~NLWInfoPopupLayer())}
+PUBLIC 145bd 0 {virtual override thunk({offset(-264)}, NLWInfoPopupLayer::~NLWInfoPopupLayer())}
+PUBLIC 14621 0 {virtual override thunk({offset(-276)}, geode::Popup<GJGameLevel*, NLWRating*>::keyDown(cocos2d::enumKeyCodes))}
+PUBLIC 1463d 0 {virtual override thunk({offset(-316)}, cocos2d::CCLayerRGBA::setOpacityModifyRGB(bool))}
+PUBLIC 1463f 0 {virtual override thunk({offset(-316)}, cocos2d::CCLayerRGBA::isOpacityModifyRGB())}
+PUBLIC 14643 0 geode::Popup<GJGameLevel*, NLWRating*>::~Popup()
+PUBLIC 14645 0 {virtual override thunk({offset(-264)}, geode::Popup<GJGameLevel*, NLWRating*>::~Popup())}
+PUBLIC 146a5 0 {virtual override thunk({offset(-264)}, geode::Popup<GJGameLevel*, NLWRating*>::~Popup())}
+PUBLIC 146a9 0 geode::Popup<GJGameLevel*, NLWRating*>::initBase(float, float, GJGameLevel*, NLWRating*, char const*, cocos2d::CCRect, bool)
+PUBLIC m 148fd 0 NLWRating::NLWRating(matjson::Value)
+PUBLIC 14c8d 0 NLWRating::format()
+PUBLIC 14d29 0 geode::utils::MiniFunction<geode::TextRenderer::Label(int)>::~MiniFunction()
+PUBLIC 14d41 0 PlainTextArea::init(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, cocos2d::CCSize const&)
+PUBLIC 14f0d 0 PlainTextArea::updateLabel()
+PUBLIC m 15051 0 PlainTextArea::~PlainTextArea()
+PUBLIC 150b9 0 {virtual override thunk({offset(-264)}, PlainTextArea::~PlainTextArea())}
+PUBLIC 15125 0 PlainTextArea::~PlainTextArea()
+PUBLIC 15191 0 {virtual override thunk({offset(-264)}, PlainTextArea::~PlainTextArea())}
+PUBLIC 15201 0 PlainTextArea::setString(char const*)
+PUBLIC 15225 0 {virtual override thunk({offset(-316)}, PlainTextArea::setString(char const*))}
+PUBLIC 1524b 0 PlainTextArea::getString()
+PUBLIC 1525f 0 {virtual override thunk({offset(-316)}, PlainTextArea::getString())}
+PUBLIC 15271 0 PlainTextArea::create(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, cocos2d::CCSize const&)
+PUBLIC 1530d 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__assign_external(char const*, unsigned int)
+PUBLIC 153e3 0 geode::utils::MiniFunctionState<$_0, geode::TextRenderer::Label, int>::~MiniFunctionState()
+PUBLIC 153e9 0 geode::utils::MiniFunctionState<$_0, geode::TextRenderer::Label, int>::call(int) const
+PUBLIC 15441 0 geode::utils::MiniFunctionState<$_0, geode::TextRenderer::Label, int>::clone() const
+PUBLIC 15459 0 geode::utils::MiniFunctionStateBase<geode::TextRenderer::Label, int>::~MiniFunctionStateBase()
+PUBLIC 1545d 0 _GLOBAL__sub_I_PlainTextArea.cpp
+PUBLIC 15499 0 __cxx_global_var_init
+PUBLIC 1583d 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook7<(anonymous namespace)::hook7Parent>, MenuLayer> >::~ModifyBase()
+PUBLIC 1585d 0 geode::modifier::ModifyDerive<hook7<(anonymous namespace)::hook7Parent>, MenuLayer>::apply()
+PUBLIC 15b01 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook7<(anonymous namespace)::hook7Parent>, MenuLayer> >::apply()
+PUBLIC 15b03 0 geode::modifier::AsStaticFunction_init<hook7<(anonymous namespace)::hook7Parent>, bool (hook7<(anonymous namespace)::hook7Parent>::*)()>::Impl<bool (hook7<(anonymous namespace)::hook7Parent>::*)()>::function(hook7<(anonymous namespace)::hook7Parent>*)
+PUBLIC 15b19 0 geode::addresser::Addresser::addressOfVirtual<bool, MenuLayer, >(bool (MenuLayer::*)())
+PUBLIC 15bf9 0 geode::getMod()
+PUBLIC 15c19 0 _GLOBAL__sub_I_entry.cpp
+PUBLIC 15c41 0 cocos2d::CCDestructor::lock(void*)
+PUBLIC m 15cdd 0 cocos2d::CCDestructor::~CCDestructor()
+PUBLIC 15d81 0 wrapFunction(unsigned int, tulip::hook::WrapperMetadata const&)
+PUBLIC 15e59 0 tulip::hook::Result<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::unwrapErr() &
+PUBLIC 15ecd 0 tulip::hook::Result<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::unwrap() &
+PUBLIC 15f8d 0 tulip::hook::WrapperMetadata::~WrapperMetadata()
+PUBLIC m 15fd5 0 cocos2d::CCNode::CCNode()
+PUBLIC m 160ed 0 cocos2d::CCObject::CCObject()
+PUBLIC m 161f5 0 cocos2d::CCNode::~CCNode()
+PUBLIC 16319 0 cocos2d::CCNode::~CCNode()
+PUBLIC m 16329 0 cocos2d::CCLayer::CCLayer()
+PUBLIC 16445 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayer::~CCLayer())}
+PUBLIC 1644d 0 cocos2d::CCLayer::~CCLayer()
+PUBLIC 1645d 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayer::~CCLayer())}
+PUBLIC 16471 0 cocos2d::CCObject::~CCObject()
+PUBLIC m 16481 0 cocos2d::CCLayerColor::CCLayerColor()
+PUBLIC m 165ad 0 cocos2d::CCLayerRGBA::CCLayerRGBA()
+PUBLIC m 166d1 0 cocos2d::CCLayerRGBA::~CCLayerRGBA()
+PUBLIC m 16839 0 cocos2d::CCLayerColor::~CCLayerColor()
+PUBLIC 169a9 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayerColor::~CCLayerColor())}
+PUBLIC 169b1 0 cocos2d::CCLayerColor::~CCLayerColor()
+PUBLIC 169c1 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayerColor::~CCLayerColor())}
+PUBLIC 169d5 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayerRGBA::~CCLayerRGBA())}
+PUBLIC 169dd 0 cocos2d::CCLayerRGBA::~CCLayerRGBA()
+PUBLIC 169ed 0 {virtual override thunk({offset(-264)}, cocos2d::CCLayerRGBA::~CCLayerRGBA())}
+PUBLIC m 16a01 0 FLAlertLayer::~FLAlertLayer()
+PUBLIC 16a69 0 {virtual override thunk({offset(-264)}, FLAlertLayer::~FLAlertLayer())}
+PUBLIC 16ad5 0 FLAlertLayer::~FLAlertLayer()
+PUBLIC 16b41 0 {virtual override thunk({offset(-264)}, FLAlertLayer::~FLAlertLayer())}
+PUBLIC m 16bb1 0 FLAlertLayer::FLAlertLayer()
+PUBLIC 16c25 0 FLAlertLayer::create(FLAlertLayerProtocol*, char const*, gd::string, char const*, char const*, float)
+PUBLIC 16d31 0 tulip::hook::AbstractFunction::from<FLAlertLayer*, FLAlertLayerProtocol*, char const*, gd::string, char const*, char const*, float>(FLAlertLayer* (*)(FLAlertLayerProtocol*, char const*, gd::string, char const*, char const*, float))
+PUBLIC 16fd9 0 FLAlertLayer::create(char const*, gd::string const&, char const*)
+PUBLIC m 17049 0 cocos2d::CCObject::~CCObject()
+PUBLIC 17159 0 ButtonSprite::create(char const*, char const*, char const*, float)
+PUBLIC 17177 0 CCMenuItemSpriteExtra::create(cocos2d::CCNode*, cocos2d::CCObject*, void (cocos2d::CCObject::*)(cocos2d::CCObject*))
+PUBLIC m 17191 0 cocos2d::CCLayer::~CCLayer()
+PUBLIC 172e9 0 cocos2d::CCObject::update(float)
+PUBLIC 172ed 0 tulip::hook::lib::bitwizeshift::bad_result_access<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~bad_result_access()
+PUBLIC 17315 0 tulip::hook::lib::bitwizeshift::bad_result_access<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~bad_result_access()
+PUBLIC 17341 0 std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::__unordered_map_hasher<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::hash<void*>, std::__ndk1::equal_to<void*>, true>, std::__ndk1::__unordered_map_equal<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::equal_to<void*>, std::__ndk1::hash<void*>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<void*, bool> > >::__emplace_unique_key_args<void*, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<void* const&>, std::__ndk1::tuple<> >(void* const&, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<void* const&>, std::__ndk1::tuple<>)
+PUBLIC 175d1 0 std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::__unordered_map_hasher<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::hash<void*>, std::__ndk1::equal_to<void*>, true>, std::__ndk1::__unordered_map_equal<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::equal_to<void*>, std::__ndk1::hash<void*>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<void*, bool> > >::__do_rehash<true>(unsigned int)
+PUBLIC 1772d 0 std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::__unordered_map_hasher<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::hash<void*>, std::__ndk1::equal_to<void*>, true>, std::__ndk1::__unordered_map_equal<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::equal_to<void*>, std::__ndk1::hash<void*>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<void*, bool> > >::__erase_unique<void*>(void* const&)
+PUBLIC 17865 0 std::__ndk1::__hash_table<std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::__unordered_map_hasher<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::hash<void*>, std::__ndk1::equal_to<void*>, true>, std::__ndk1::__unordered_map_equal<void*, std::__ndk1::__hash_value_type<void*, bool>, std::__ndk1::equal_to<void*>, std::__ndk1::hash<void*>, true>, std::__ndk1::allocator<std::__ndk1::__hash_value_type<void*, bool> > >::remove(std::__ndk1::__hash_const_iterator<std::__ndk1::__hash_node<std::__ndk1::__hash_value_type<void*, bool>, void*>*>)
+PUBLIC 1799d 0 std::__ndk1::vector<tulip::hook::AbstractType, std::__ndk1::allocator<tulip::hook::AbstractType> >::__throw_length_error[abi:v170000]() const
+PUBLIC 179ad 0 fmt::v10::detail::throw_format_error(char const*)
+PUBLIC m 179e5 0 fmt::v10::format_error::runtime_error(char const*)
+PUBLIC 179fd 0 fmt::v10::detail::write_loc(fmt::v10::appender, fmt::v10::loc_value, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)
+PUBLIC 17b05 0 fmt::v10::format_facet<std::__ndk1::locale>::format_facet(std::__ndk1::locale&)
+PUBLIC 17c05 0 fmt::v10::format_facet<std::__ndk1::locale>::~format_facet()
+PUBLIC 17c49 0 fmt::v10::format_facet<std::__ndk1::locale>::do_put(fmt::v10::appender, fmt::v10::loc_value, fmt::v10::format_specs<char> const&) const
+PUBLIC 17e35 0 fmt::v10::detail::loc_writer<char>::~loc_writer()
+PUBLIC 17e65 0 fmt::v10::vformat(fmt::v10::basic_string_view<char>, fmt::v10::basic_format_args<fmt::v10::basic_format_context<fmt::v10::appender, char> >)
+PUBLIC 17f29 0 fmt::v10::detail::dragonbox::cache_accessor<double>::get_cached_power(int)
+PUBLIC 180e1 0 fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)
+PUBLIC 185f1 0 fmt::v10::detail::is_printable(unsigned int)
+PUBLIC 18839 0 fmt::v10::detail::dragonbox::to_decimal<float>(float)
+PUBLIC 18bc5 0 fmt::v10::detail::dragonbox::to_decimal<double>(double)
+PUBLIC 19475 0 fmt::v10::detail::thousands_sep_impl<char>(fmt::v10::detail::locale_ref)
+PUBLIC m 19519 0 fmt::v10::format_error::~format_error()
+PUBLIC 19529 0 fmt::v10::basic_memory_buffer<char, (unsigned int)500, std::__ndk1::allocator<char> >::grow(unsigned int)
+PUBLIC 195c1 0 fmt::v10::format_facet<std::__ndk1::locale>::~format_facet()
+PUBLIC 19609 0 fmt::v10::detail::write<char, fmt::v10::appender, int, 0>(fmt::v10::appender, int)
+PUBLIC 197ad 0 fmt::v10::detail::copy_str_noinline<char, char*, fmt::v10::appender>(char*, char*, fmt::v10::appender)
+PUBLIC 19855 0 fmt::v10::detail::write<char, fmt::v10::appender, unsigned int, 0>(fmt::v10::appender, unsigned int)
+PUBLIC 199b9 0 fmt::v10::detail::write<char, fmt::v10::appender, long long, 0>(fmt::v10::appender, long long)
+PUBLIC 19bd1 0 fmt::v10::detail::write<char, fmt::v10::appender, unsigned long long, 0>(fmt::v10::appender, unsigned long long)
+PUBLIC 19db1 0 fmt::v10::detail::write<char, fmt::v10::appender, bool, 0>(fmt::v10::appender, bool, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)
+PUBLIC 19e89 0 fmt::v10::detail::write_int_noinline<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned int>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)
+PUBLIC 1a629 0 fmt::v10::detail::write_char<char, fmt::v10::appender>(fmt::v10::appender, char, fmt::v10::format_specs<char> const&)
+PUBLIC 1a6b9 0 fmt::v10::detail::write_int<fmt::v10::appender, char, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned int>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#1}>(fmt::v10::appender, int, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned int>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#1})::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1a7bd 0 fmt::v10::detail::write_int<fmt::v10::appender, char, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned int>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#2}>(fmt::v10::appender, int, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned int>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#2})::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1a8cd 0 fmt::v10::detail::write_escaped_char<char, fmt::v10::appender>(fmt::v10::appender, char)
+PUBLIC 1a9ad 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)1, fmt::v10::appender, char, fmt::v10::detail::write_bytes<(fmt::v10::align::type)1, char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender&)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write_bytes<(fmt::v10::align::type)1, char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender&)#1})
+PUBLIC 1aab1 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)1, fmt::v10::appender, char, fmt::v10::detail::write_nonfinite<char, fmt::v10::appender>(fmt::v10::appender, bool, fmt::v10::format_specs<char>, fmt::v10::detail::float_specs const&)::{lambda(fmt::v10::appender&)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write_nonfinite<char, fmt::v10::appender>(fmt::v10::appender, bool, fmt::v10::format_specs<char>, fmt::v10::detail::float_specs const&)::{lambda(fmt::v10::appender&)#1})
+PUBLIC 1abed 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)
+PUBLIC 1b079 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1b14d 0 fmt::v10::detail::digit_grouping<char>::digit_grouping(fmt::v10::detail::locale_ref, bool)
+PUBLIC 1b271 0 fmt::v10::detail::digit_grouping<char>::~digit_grouping()
+PUBLIC 1b295 0 fmt::v10::detail::write_exponent<char, fmt::v10::appender>(int, fmt::v10::appender)
+PUBLIC 1b3a5 0 fmt::v10::detail::write_significand<char, unsigned int, 0>(char*, unsigned int, int, int, char)
+PUBLIC 1b4ed 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#2}::operator() const
+PUBLIC 1b59d 0 fmt::v10::detail::write_significand<char, fmt::v10::appender, unsigned int, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, unsigned int, int, int, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 1b781 0 fmt::v10::detail::digit_grouping<char>::apply<fmt::v10::appender, char>(fmt::v10::appender, fmt::v10::basic_string_view<char>) const
+PUBLIC 1b9b9 0 fmt::v10::basic_memory_buffer<int, (unsigned int)500, std::__ndk1::allocator<int> >::grow(unsigned int)
+PUBLIC 1ba71 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3})
+PUBLIC 1bb51 0 fmt::v10::detail::write_significand<fmt::v10::appender, char, unsigned int, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, unsigned int, int, int, char, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 1bc35 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<float> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#4}::operator() const
+PUBLIC 1bd99 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)
+PUBLIC 1c231 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1c30d 0 fmt::v10::detail::write_significand<char, unsigned long long, 0>(char*, unsigned long long, int, int, char)
+PUBLIC 1c4d9 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#2}::operator() const
+PUBLIC 1c591 0 fmt::v10::detail::write_significand<char, fmt::v10::appender, unsigned long long, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, unsigned long long, int, int, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 1c7bd 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3})
+PUBLIC 1c8a5 0 fmt::v10::detail::write_significand<fmt::v10::appender, char, unsigned long long, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, unsigned long long, int, int, char, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 1c989 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double>, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::dragonbox::decimal_fp<double> const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#4}::operator() const
+PUBLIC 1cb21 0 fmt::v10::detail::copy_str_noinline<char, char const*, fmt::v10::appender>(char const*, char const*, fmt::v10::appender)
+PUBLIC 1cbc9 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::write_ptr<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, unsigned int, fmt::v10::format_specs<char> const*)::{lambda(fmt::v10::appender&)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write_ptr<char, fmt::v10::appender, unsigned int>(fmt::v10::appender, unsigned int, fmt::v10::format_specs<char> const*)::{lambda(fmt::v10::appender&)#1})
+PUBLIC 1ccf1 0 fmt::v10::detail::parse_replacement_field<char, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&>(char const*, char const*, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&)
+PUBLIC 1d23d 0 fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler::on_format_specs(int, char const*, char const*)
+PUBLIC 1da0d 0 fmt::v10::detail::do_parse_arg_id<char, fmt::v10::detail::parse_replacement_field<char, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&>(char const*, char const*, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&)::id_adapter&>(char const*, char const*, fmt::v10::detail::parse_replacement_field<char, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&>(char const*, char const*, fmt::v10::detail::vformat_to<char>(fmt::v10::detail::buffer<char>&, fmt::v10::basic_string_view<char>, fmt::v10::detail::vformat_args<char>::type, fmt::v10::detail::locale_ref)::format_handler&)::id_adapter&)
+PUBLIC 1dbad 0 fmt::v10::detail::write_int_noinline<char, fmt::v10::appender, unsigned long long>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned long long>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)
+PUBLIC 1e3f9 0 fmt::v10::detail::write_int<fmt::v10::appender, char, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned long long>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned long long>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#1}>(fmt::v10::appender, int, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned long long>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned long long>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#1})::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1e521 0 fmt::v10::detail::write_int<fmt::v10::appender, char, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned long long>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned long long>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#2}>(fmt::v10::appender, int, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::write_int<char, fmt::v10::appender, unsigned long long>(fmt::v10::appender, fmt::v10::detail::write_int_arg<unsigned long long>, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender)#2})::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 1e659 0 fmt::v10::detail::write<char, fmt::v10::appender>(fmt::v10::appender, char, fmt::v10::format_specs<char> const&, fmt::v10::detail::locale_ref)
+PUBLIC 1e711 0 fmt::v10::detail::write_float<char, fmt::v10::appender, float>(fmt::v10::appender, float, fmt::v10::format_specs<char>, fmt::v10::detail::locale_ref)
+PUBLIC 1ea11 0 fmt::v10::detail::format_hexfloat<double, 0>(double, int, fmt::v10::detail::float_specs, fmt::v10::detail::buffer<char>&)
+PUBLIC 1edf1 0 fmt::v10::detail::format_float<double>(double, int, fmt::v10::detail::float_specs, fmt::v10::detail::buffer<char>&)
+PUBLIC 1f55d 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::write_bytes<(fmt::v10::align::type)2, char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender&)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write_bytes<(fmt::v10::align::type)2, char, fmt::v10::appender>(fmt::v10::appender, fmt::v10::basic_string_view<char>, fmt::v10::format_specs<char> const&)::{lambda(fmt::v10::appender&)#1})
+PUBLIC 1f661 0 fmt::v10::detail::format_dragon(fmt::v10::detail::basic_fp<fmt::v10::detail::uint128_fallback>, unsigned int, int, fmt::v10::detail::buffer<char>&, int&)
+PUBLIC 204b5 0 fmt::v10::detail::bigint::operator<<=(int)
+PUBLIC 2058b 0 fmt::v10::detail::bigint::assign_pow10(int)
+PUBLIC 2067d 0 fmt::v10::detail::bigint::divmod_assign(fmt::v10::detail::bigint const&)
+PUBLIC 20933 0 fmt::v10::basic_memory_buffer<unsigned int, (unsigned int)32, std::__ndk1::allocator<unsigned int> >::grow(unsigned int)
+PUBLIC 209ed 0 fmt::v10::detail::bigint::square()
+PUBLIC 20bdd 0 fmt::v10::basic_memory_buffer<unsigned int, (unsigned int)32, std::__ndk1::allocator<unsigned int> >::basic_memory_buffer(fmt::v10::basic_memory_buffer<unsigned int, (unsigned int)32, std::__ndk1::allocator<unsigned int> >&&)
+PUBLIC 20d4d 0 fmt::v10::detail::bigint::multiply<fmt::v10::detail::uint128_fallback, 0>(fmt::v10::detail::uint128_fallback)
+PUBLIC 20e3d 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)
+PUBLIC 2128d 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#1}::operator() const
+PUBLIC 21365 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#2}::operator() const
+PUBLIC 21415 0 fmt::v10::detail::write_significand<char, fmt::v10::appender, char const*, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, char const*, int, int, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 21645 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender&)#3})
+PUBLIC 21725 0 fmt::v10::detail::write_significand<fmt::v10::appender, char, char const*, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, char const*, int, int, char, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 21879 0 fmt::v10::detail::do_write_float<fmt::v10::appender, fmt::v10::detail::big_decimal_fp, char, fmt::v10::detail::digit_grouping<char> >(fmt::v10::appender, fmt::v10::detail::big_decimal_fp const&, fmt::v10::format_specs<char> const&, fmt::v10::detail::float_specs, fmt::v10::detail::locale_ref)::{lambda(fmt::v10::appender(fmt::v10::appender))#4}::operator() const
+PUBLIC 21a01 0 fmt::v10::detail::write_float<char, fmt::v10::appender, double>(fmt::v10::appender, double, fmt::v10::format_specs<char>, fmt::v10::detail::locale_ref)
+PUBLIC 21d01 0 fmt::v10::detail::write_float<char, fmt::v10::appender, long double>(fmt::v10::appender, long double, fmt::v10::format_specs<char>, fmt::v10::detail::locale_ref)
+PUBLIC 21ffd 0 fmt::v10::detail::loc_writer<char>::operator()<int, 0>(int)
+PUBLIC 221c1 0 fmt::v10::detail::loc_writer<char>::operator()<unsigned int, 0>(unsigned int)
+PUBLIC 2236d 0 fmt::v10::detail::loc_writer<char>::operator()<long long, 0>(long long)
+PUBLIC 22559 0 fmt::v10::detail::loc_writer<char>::operator()<unsigned long long, 0>(unsigned long long)
+PUBLIC 22729 0 fmt::v10::detail::write_int<fmt::v10::appender, unsigned long long, char>(fmt::v10::appender, unsigned long long, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::digit_grouping<char> const&)
+PUBLIC 22895 0 fmt::v10::detail::write_padded<(fmt::v10::align::type)2, fmt::v10::appender, char, fmt::v10::detail::write_int<fmt::v10::appender, unsigned long long, char>(fmt::v10::appender, unsigned long long, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::digit_grouping<char> const&)::{lambda(fmt::v10::appender)#1}>(fmt::v10::appender, fmt::v10::format_specs<char> const&, unsigned int, unsigned int, fmt::v10::detail::write_int<fmt::v10::appender, unsigned long long, char>(fmt::v10::appender, unsigned long long, unsigned int, fmt::v10::format_specs<char> const&, fmt::v10::detail::digit_grouping<char> const&)::{lambda(fmt::v10::appender&&)#1})
+PUBLIC m 22928 0 __aeabi_memmove
+PUBLIC m 2292c 0 __aeabi_memset
+PUBLIC m 2293c 0 __aeabi_memclr4
+PUBLIC 22949 0 __ThumbV7PILongThunk___cxa_atexit
+PUBLIC 22955 0 __ThumbV7PILongThunk__ZdlPv
+PUBLIC 22961 0 __ThumbV7PILongThunk__ZNSt11logic_errorD2Ev
+PUBLIC 2296d 0 __ThumbV7PILongThunk__ZN7cocos2d17CCTouchDispatcher19addTargetedDelegateEPNS_15CCTouchDelegateEib
+PUBLIC 22979 0 __ThumbV7PILongThunk__ZN12FLAlertLayer7keyDownEN7cocos2d12enumKeyCodesE
+PUBLIC 22985 0 __ThumbV7PILongThunk__ZN5geode9addresser9Addresser19followThunkFunctionEi
+PUBLIC 22991 0 __ThumbV7PILongThunk__ZNSt6__ndk16locale5facetD2Ev
+PUBLIC 229a0 0 <.plt ELF section in oatmealine.nlw_integration.android32.so>
