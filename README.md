@@ -2,13 +2,16 @@
 
 This repository contains symbol files for stable Geode Android releases, latest Geometry Dash releases and some popular Geode mods.
 
-The symbol server can currently be accessed at [symbols.xyze.dev](https://symbols.xyze.dev/). The recommended usage is to point a tool like [minidump-stackwalk](https://crates.io/crates/minidump-stackwalk) at it. However, cloning the repository locally works as well. Just make sure to create a shallow clone!
+The symbol server can currently be accessed at [symbols.xyze.dev](https://symbols.xyze.dev/).
+The recommended usage is to point a tool like [minidump-stackwalk](https://crates.io/crates/minidump-stackwalk) at it.
+However, cloning the repository locally works as well.
+Just make sure to create a shallow clone!
 
 ## Adding Geode Symbols
 
-To update the Geode symbols with the latest release, just run `./update_geode_syms.sh`. This script will download the latest release and add it to the symbol database.
-
-A GitHub Actions workflow will be provided at some point to make this process even more automatic.
+To update the Geode symbols with the latest release, just run `./update_geode_syms.sh`.
+This script will download the latest release and add it to the symbol database.
+A GitHub Actions workflow to update symbols is also available and can be ran manually.
 
 ## Adding Other Symbols
 
@@ -22,4 +25,6 @@ A GitHub Actions workflow will be provided at some point to make this process ev
 
 ## Licensing
 
-The symbols contained in this repository are intended to be used by mod developers and users for the purposes of debugging crashes. No promises are made as to the accuracy of the symbols or the safety of their contents. If you have an issue with the symbols of your binaries appearing in the repository, please contact me.
+The symbols contained in this repository are intended to be used by mod developers and users for the purposes of debugging crashes.
+No promises are made as to the accuracy of the symbols or the safety of their contents.
+If you have an issue with the symbols of your binaries appearing in the repository, please contact me.

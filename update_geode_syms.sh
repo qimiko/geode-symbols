@@ -29,7 +29,7 @@ do
   download_path="$tempdir/release.zip"
   platform_download="$platform.zip"
 
-  download_url=$(echo $releases | jq -r --arg platform "$platform_download" '.assets.[] | select(.name | contains($platform)) | .browser_download_url')
+  download_url=$(echo $releases | jq -r --arg platform "$platform_download" '.assets[] | select(.name | contains($platform)) | .browser_download_url')
   if [[ -z "$download_url" ]]
   then
     echo "Skipping platform $platform, no download found"
