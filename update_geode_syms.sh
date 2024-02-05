@@ -36,7 +36,7 @@ do
     continue
   fi
 
-  curl $download_url --clobber -Lo $download_path
+  curl $download_url -Lo $download_path
 
   release_dir="$tempdir/release"
   unzip -q $download_path -d $release_dir
