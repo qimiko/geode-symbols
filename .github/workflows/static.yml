@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Add commit info
+        run: "echo '\nCurrent commit: ${{ github.sha }}' >> README.md"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
