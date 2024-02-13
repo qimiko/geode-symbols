@@ -19,7 +19,7 @@ then
   exit 1
 fi
 
-tempdir=$(mktemp -d -t geode-syms || echo "$TMPDIR")
+tempdir=$(mktemp -d -t geode-syms.XXXXXXX)
 releases=$(curl -s "$release_url")
 
 for platform in "${supported_platforms[@]}"
