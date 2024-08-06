@@ -1,6 +1,6 @@
 # Geode Symbols
 
-This repository contains symbol files for stable Geode Android releases, latest Geometry Dash releases and some popular Geode mods.
+[This repository](https://github.com/qimiko/geode-symbols) contains symbol files for stable Geode Android releases, latest Geometry Dash releases and some popular Geode mods.
 
 The symbol server can currently be accessed at [symbols.xyze.dev](https://symbols.xyze.dev/).
 The recommended usage is to point a tool like [minidump-stackwalk](https://crates.io/crates/minidump-stackwalk) at it.
