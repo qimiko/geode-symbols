@@ -4,7 +4,15 @@
 # Requires jq + unzip to be installed.
 
 supported_platforms=( "android32" "android64" )
-release_url="https://api.github.com/repos/geode-sdk/geode/releases/latest"
+release_tag="latest"
+
+if ! [[ -z $1 ]]
+then
+  release_tag="tags/$1"
+fi
+
+release_url="https://api.github.com/repos/geode-sdk/geode/releases/$release_tag"
+
 
 # validate a user has jq and unzip installed
 if ! [[ -x "$(command -v jq)" ]]
