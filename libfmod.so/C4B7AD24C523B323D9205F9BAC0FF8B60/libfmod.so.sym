@@ -1,5 +1,5 @@
 MODULE Linux arm64 C4B7AD24C523B323D9205F9BAC0FF8B60 libfmod.so
-INFO GENERATOR mozilla/dump_syms 2.3.3
+INFO GENERATOR mozilla/dump_syms 2.3.4
 PUBLIC 50000 0 <.text ELF section in libfmod.so>
 PUBLIC 5003c 0 FMOD_Memory_Initialize
 PUBLIC 50154 0 FMOD_Memory_GetStats
